@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Pdf Manager M2m Pdf Document Pdf Creatio" max_length="40" name="x_9104_pdf_manager_m2m_pdf_document_pdf_creatio" sizeclass="1" type="collection">
+        <element attributes="encode_utf8=false" label="PDF Creation Definition" max_length="32" name="pdf_creation_definition" reference="x_9104_pdf_manager_pdf_creation_definition" type="reference"/>
+        <element attributes="encode_utf8=false" display="true" label="PDF Document" max_length="32" name="pdf_document" reference="x_9104_pdf_manager_pdf_document" type="reference"/>
+        <index name="index">
+            <element name="pdf_creation_definition"/>
+        </index>
+        <index name="index2">
+            <element name="pdf_document"/>
+        </index>
+    </element>
+</database>

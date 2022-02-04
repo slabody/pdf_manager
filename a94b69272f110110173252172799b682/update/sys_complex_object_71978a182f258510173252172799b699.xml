@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDbd978a18c9258510e28ab7b6d150b698</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>a94b69272f110110173252172799b682</scope_name>
+        <serialized_content>{"FlowDesigner:FDbd978a18c9258510e28ab7b6d150b698":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDbd978a18c9258510e28ab7b6d150b698.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"output_array\",\"mandatory\":\"false\",\"child_name\":\"output_array_child0\",\"uiUniqueId\":\"727555a7-d54d-42a6-98c5-73641a9c2ae1\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDbd978a18c9258510e28ab7b6d150b698\",\"child_label\":\"output_array_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"ab9cf688-7694-41d4-b8ed-0fa56c521627\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-04 13:48:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>71978a182f258510173252172799b699</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>FDbd978a18c9258510e28ab7b6d150b698</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name>sys_complex_object_71978a182f258510173252172799b699</sys_update_name>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-04 14:09:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

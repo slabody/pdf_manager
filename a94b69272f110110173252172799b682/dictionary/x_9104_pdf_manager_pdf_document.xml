@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="PDF Document" max_length="40" name="x_9104_pdf_manager_pdf_document" sizeclass="3" type="collection">
+        <element label="Attachment Sys ID" max_length="32" name="attachment_sys_id" read_only="true" type="string"/>
+        <element display="true" label="Description" max_length="100" name="description" type="string"/>
+        <element label="PDF File" max_length="40" name="pdf_file" type="file_attachment"/>
+    </element>
+</database>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="0d4365f72fdd4110173252172799b647" sys_domain="global" table="x_9104_pdf_manager_pdf_field_matching" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pdf_creation_definition</element>
+            <position>0</position>
+            <sys_created_by>michael.slabodnick</sys_created_by>
+            <sys_created_on>2022-02-04 18:28:43</sys_created_on>
+            <sys_id>f3c74f902f6d8510173252172799b63a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_9104_pdf_manager_pdf_field_matching" sys_domain="global" view="Default view">0d4365f72fdd4110173252172799b647</sys_ui_section>
+            <sys_updated_by>michael.slabodnick</sys_updated_by>
+            <sys_updated_on>2022-02-04 18:28:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>table</element>
+            <position>1</position>
+            <sys_created_by>michael.slabodnick</sys_created_by>
+            <sys_created_on>2022-02-04 18:28:43</sys_created_on>
+            <sys_id>7fc74f902f6d8510173252172799b63a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_9104_pdf_manager_pdf_field_matching" sys_domain="global" view="Default view">0d4365f72fdd4110173252172799b647</sys_ui_section>
+            <sys_updated_by>michael.slabodnick</sys_updated_by>
+            <sys_updated_on>2022-02-04 18:28:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pdf_field</element>
+            <position>2</position>
+            <sys_created_by>michael.slabodnick</sys_created_by>
+            <sys_created_on>2022-02-04 18:28:43</sys_created_on>
+            <sys_id>f3c74f902f6d8510173252172799b63b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_9104_pdf_manager_pdf_field_matching" sys_domain="global" view="Default view">0d4365f72fdd4110173252172799b647</sys_ui_section>
+            <sys_updated_by>michael.slabodnick</sys_updated_by>
+            <sys_updated_on>2022-02-04 18:28:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pdf_field_type</element>
+            <position>3</position>
+            <sys_created_by>michael.slabodnick</sys_created_by>
+            <sys_created_on>2022-02-04 18:28:43</sys_created_on>
+            <sys_id>7bc74f902f6d8510173252172799b63b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_9104_pdf_manager_pdf_field_matching" sys_domain="global" view="Default view">0d4365f72fdd4110173252172799b647</sys_ui_section>
+            <sys_updated_by>michael.slabodnick</sys_updated_by>
+            <sys_updated_on>2022-02-04 18:28:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>field</element>
+            <position>4</position>
+            <sys_created_by>michael.slabodnick</sys_created_by>
+            <sys_created_on>2022-02-04 18:28:43</sys_created_on>
+            <sys_id>ffc74f902f6d8510173252172799b63b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_9104_pdf_manager_pdf_field_matching" sys_domain="global" view="Default view">0d4365f72fdd4110173252172799b647</sys_ui_section>
+            <sys_updated_by>michael.slabodnick</sys_updated_by>
+            <sys_updated_on>2022-02-04 18:28:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>use_script</element>
+            <position>5</position>
+            <sys_created_by>michael.slabodnick</sys_created_by>
+            <sys_created_on>2022-02-04 18:28:43</sys_created_on>
+            <sys_id>77c74f902f6d8510173252172799b63c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_9104_pdf_manager_pdf_field_matching" sys_domain="global" view="Default view">0d4365f72fdd4110173252172799b647</sys_ui_section>
+            <sys_updated_by>michael.slabodnick</sys_updated_by>
+            <sys_updated_on>2022-02-04 18:28:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>script</element>
+            <position>6</position>
+            <sys_created_by>michael.slabodnick</sys_created_by>
+            <sys_created_on>2022-02-04 18:28:43</sys_created_on>
+            <sys_id>fbc74f902f6d8510173252172799b63c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_9104_pdf_manager_pdf_field_matching" sys_domain="global" view="Default view">0d4365f72fdd4110173252172799b647</sys_ui_section>
+            <sys_updated_by>michael.slabodnick</sys_updated_by>
+            <sys_updated_on>2022-02-04 18:28:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_9104_pdf_manager_pdf_field_matching</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>michael.slabodnick</sys_created_by>
+            <sys_created_on>2022-02-02 21:52:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0d4365f72fdd4110173252172799b647</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_9104_pdf_manager_pdf_field_matching</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+            <sys_update_name>sys_ui_section_0d4365f72fdd4110173252172799b647</sys_update_name>
+            <sys_updated_by>michael.slabodnick</sys_updated_by>
+            <sys_updated_on>2022-02-02 21:52:29</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

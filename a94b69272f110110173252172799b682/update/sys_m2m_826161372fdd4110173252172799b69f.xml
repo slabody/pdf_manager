@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>x_9104_pdf_manager_pdf_creation_definition</from_table>
+        <m2m_from_field>pdf_creation_definition</m2m_from_field>
+        <m2m_from_label>PDF Documents</m2m_from_label>
+        <m2m_table>x_9104_pdf_manager_m2m_pdf_document_pdf_creatio</m2m_table>
+        <m2m_to_field>pdf_document</m2m_to_field>
+        <m2m_to_label>PDF Creation Definitions</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-02 21:44:48</sys_created_on>
+        <sys_id>826161372fdd4110173252172799b69f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_9104_pdf_manager_m2m_pdf_document_pdf_creatio</sys_name>
+        <sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name>sys_m2m_826161372fdd4110173252172799b69f</sys_update_name>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-02 21:44:48</sys_updated_on>
+        <to_table>x_9104_pdf_manager_pdf_document</to_table>
+    </sys_m2m>
+</record_update>
