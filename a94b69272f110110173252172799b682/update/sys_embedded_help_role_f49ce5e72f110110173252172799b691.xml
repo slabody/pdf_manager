@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <role display_value="x_9104_pdf_manager.pdf_field_user" name="x_9104_pdf_manager.pdf_field_user">389c25e72f110110173252172799b671</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-02 03:54:40</sys_created_on>
+        <sys_id>f49ce5e72f110110173252172799b691</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>389c25e72f110110173252172799b671</sys_name>
+        <sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name>sys_embedded_help_role_f49ce5e72f110110173252172799b691</sys_update_name>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-02 03:54:40</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

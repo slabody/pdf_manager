@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="PDF Field" max_length="40" name="x_9104_pdf_manager_pdf_field" sizeclass="495" type="collection">
+        <element label="Copy to Document" max_length="40" name="copy_to_document" type="boolean"/>
+        <element label="Field Type" max_length="30" name="field_type" type="string"/>
+        <element label="Name" max_length="100" name="name" type="string"/>
+        <element label="PDF Document" max_length="32" name="pdf_document" reference="x_9104_pdf_manager_pdf_document" type="reference"/>
+        <element choice="3" label="PDF Field Type" max_length="32" name="pdf_field_type" reference="x_9104_pdf_manager_pdf_field_type" type="reference">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="pdf_field_type"/>
+        </index>
+        <index name="index2">
+            <element name="pdf_document"/>
+        </index>
+    </element>
+</database>

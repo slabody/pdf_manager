@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="b96425fb2fdd4110173252172799b658" sys_domain="global" table="x_9104_pdf_manager_m2m_pdf_document_pdf_creatio" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>michael.slabodnick</sys_created_by>
+            <sys_created_on>2022-02-02 21:57:27</sys_created_on>
+            <sys_id>716425fb2fdd4110173252172799b65f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_9104_pdf_manager_m2m_pdf_document_pdf_creatio" sys_domain="global" view="Default view">b96425fb2fdd4110173252172799b658</sys_ui_section>
+            <sys_updated_by>michael.slabodnick</sys_updated_by>
+            <sys_updated_on>2022-02-02 21:57:27</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pdf_creation_definition</element>
+            <position>1</position>
+            <sys_created_by>michael.slabodnick</sys_created_by>
+            <sys_created_on>2022-02-02 21:57:27</sys_created_on>
+            <sys_id>f56425fb2fdd4110173252172799b65f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_9104_pdf_manager_m2m_pdf_document_pdf_creatio" sys_domain="global" view="Default view">b96425fb2fdd4110173252172799b658</sys_ui_section>
+            <sys_updated_by>michael.slabodnick</sys_updated_by>
+            <sys_updated_on>2022-02-02 21:57:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>michael.slabodnick</sys_created_by>
+            <sys_created_on>2022-02-02 21:57:27</sys_created_on>
+            <sys_id>7d6425fb2fdd4110173252172799b65f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_9104_pdf_manager_m2m_pdf_document_pdf_creatio" sys_domain="global" view="Default view">b96425fb2fdd4110173252172799b658</sys_ui_section>
+            <sys_updated_by>michael.slabodnick</sys_updated_by>
+            <sys_updated_on>2022-02-02 21:57:27</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pdf_document</element>
+            <position>3</position>
+            <sys_created_by>michael.slabodnick</sys_created_by>
+            <sys_created_on>2022-02-02 21:57:27</sys_created_on>
+            <sys_id>f16425fb2fdd4110173252172799b660</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_9104_pdf_manager_m2m_pdf_document_pdf_creatio" sys_domain="global" view="Default view">b96425fb2fdd4110173252172799b658</sys_ui_section>
+            <sys_updated_by>michael.slabodnick</sys_updated_by>
+            <sys_updated_on>2022-02-02 21:57:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>michael.slabodnick</sys_created_by>
+            <sys_created_on>2022-02-02 21:57:27</sys_created_on>
+            <sys_id>796425fb2fdd4110173252172799b660</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_9104_pdf_manager_m2m_pdf_document_pdf_creatio" sys_domain="global" view="Default view">b96425fb2fdd4110173252172799b658</sys_ui_section>
+            <sys_updated_by>michael.slabodnick</sys_updated_by>
+            <sys_updated_on>2022-02-02 21:57:27</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_9104_pdf_manager_m2m_pdf_document_pdf_creatio</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>michael.slabodnick</sys_created_by>
+            <sys_created_on>2022-02-02 21:57:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b96425fb2fdd4110173252172799b658</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_9104_pdf_manager_m2m_pdf_document_pdf_creatio</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+            <sys_update_name>sys_ui_section_b96425fb2fdd4110173252172799b658</sys_update_name>
+            <sys_updated_by>michael.slabodnick</sys_updated_by>
+            <sys_updated_on>2022-02-02 21:57:27</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="PDF Creation Definition" max_length="40" name="x_9104_pdf_manager_pdf_creation_definition" sizeclass="1" type="collection">
+        <element dependent="table" dependent_on_field="table" label="Conditions to Run" max_length="4000" name="conditions" type="conditions" use_dependent_field="true"/>
+        <element label="File Name Append" max_length="100" name="file_name_append" type="string"/>
+        <element label="Name" max_length="100" name="name" type="string"/>
+        <element label="Table" max_length="80" name="table" type="table_name"/>
+    </element>
+</database>
