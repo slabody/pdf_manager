@@ -26,7 +26,7 @@
         <sys_created_on>2022-02-06 18:17:26</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>ca6891892f6dc910173252172799b6da</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>PDF Manager Convert String to Array</sys_name>
         <sys_overrides/>
         <sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_ca6891892f6dc910173252172799b6da</sys_update_name>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-06 21:04:49</sys_updated_on>
+        <sys_updated_on>2022-02-07 21:38:38</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -124,14 +124,14 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-06 18:21:28</sys_created_on>
         <sys_id>dd5955892fadc910173252172799b6fa</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-06 21:04:41</sys_updated_on>
+        <sys_updated_on>2022-02-07 21:38:30</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=dd5955892fadc910173252172799b6fa"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -142,21 +142,19 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-06 18:21:29</sys_created_on>
         <sys_id>695995892fadc910173252172799b630</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-06 21:04:41</sys_updated_on>
+        <sys_updated_on>2022-02-07 21:38:30</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 // ... code ...
   
   var inputString = inputs.array_string.toString();
+  var editString = inputString;
   if (inputString.substring(0,1) == '[') {
     var editString = inputString.substring(1,inputString.length-1);
   }
-  else {
-    editString = inputString; 
-  }
-  var editString = inputString.substring(1,inputString.length-1);
-  outputs.output_array = inputString.split(',');
+  editString = inputString.substring(1,inputString.length-1);
+  outputs.output_array = editString.split(',');
   
   
 })(inputs, outputs);
@@ -844,13 +842,13 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="PDF Manager Convert String to Array">ca6891892f6dc910173252172799b6da</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"95899d892fadc910173252172799b678","name":"plan","plan_signature":null}}</plan>
-        <snapshot>39beb5812f250d10173252172799b618</snapshot>
+        <snapshot>0300d7912fad8d10173252172799b6da</snapshot>
         <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-06 18:22:18</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>95899d892fadc910173252172799b678</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -858,7 +856,7 @@
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-06 21:04:50</sys_updated_on>
+        <sys_updated_on>2022-02-07 21:38:40</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -982,14 +980,14 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-06 18:22:16</sys_created_on>
         <sys_id>b0895d892fadc910173252172799b6b5</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-06 21:04:48</sys_updated_on>
+        <sys_updated_on>2022-02-07 21:38:37</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b0895d892fadc910173252172799b6b5"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1014,21 +1012,19 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-06 18:22:16</sys_created_on>
         <sys_id>c5895d892fadc910173252172799b6d8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-06 21:04:48</sys_updated_on>
+        <sys_updated_on>2022-02-07 21:38:37</sys_updated_on>
         <value>(function execute(inputs, outputs) {
 // ... code ...
   
   var inputString = inputs.array_string.toString();
+  var editString = inputString;
   if (inputString.substring(0,1) == '[') {
     var editString = inputString.substring(1,inputString.length-1);
   }
-  else {
-    editString = inputString; 
-  }
-  var editString = inputString.substring(1,inputString.length-1);
-  outputs.output_array = inputString.split(',');
+  editString = inputString.substring(1,inputString.length-1);
+  outputs.output_array = editString.split(',');
   
   
 })(inputs, outputs);
