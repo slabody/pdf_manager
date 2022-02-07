@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Radio Button Answers" max_length="40" name="x_9104_pdf_manager_radio_button_answers" sizeclass="0" type="collection">
+        <element label="Answer" max_length="100" name="answer" type="string"/>
+        <element label="PDF Field" max_length="32" name="pdf_field" reference="x_9104_pdf_manager_pdf_field" type="reference"/>
+        <index name="index">
+            <element name="pdf_field"/>
+        </index>
+    </element>
+</database>

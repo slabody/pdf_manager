@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="PDF Field Matching Choice" max_length="40" name="x_9104_pdf_manager_pdf_field_matching_choice" sizeclass="44" type="collection">
+        <element label="PDF Field Matching" max_length="32" name="pdf_field_matching" reference="x_9104_pdf_manager_pdf_field_matching" type="reference"/>
+        <element label="PDF Value" max_length="100" name="pdf_value" type="string"/>
+        <element label="Record Value" max_length="100" name="record_value" type="string"/>
+        <index name="index">
+            <element name="pdf_field_matching"/>
+        </index>
+    </element>
+</database>

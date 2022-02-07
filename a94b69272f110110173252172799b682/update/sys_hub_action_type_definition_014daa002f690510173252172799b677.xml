@@ -14,7 +14,7 @@
         <description/>
         <ih_action>false</ih_action>
         <internal_name>pdf_manager_create_pdf</internal_name>
-        <label_cache>[{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"","base_type":"file_attachment","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"File Attachment","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"file_attachment","uiUniqueId":"f6dda0f7-a298-462a-b1b9-77ad1e536927"}},{"name":"{{action.table}}","label":"action➛Table","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"d857461d-6601-4965-92fc-e41dc267203a"}},{"name":"{{action.target_sys_id}}","label":"action➛Target Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.source_file_attachment}}","label":"action➛Source File Attachment","type":"action","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Sys ID (GUID)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"GUID","uiUniqueId":"a53102e0-bfa0-471b-a7fc-0a1322d6a616"}},{"name":"{{action.output_pdf_name}}","label":"action➛Output PDF Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"0c484689-5af6-4fc6-8a39-772860f15e85"}},{"name":"{{action.pdf_creation_definition}}","label":"action➛PDF Creation Definition","type":"action","ref":"","reference_display":"PDF Creation Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"c8dddf74-373e-418c-a7fa-e438756d6ca9"}},{"name":"{{action.pdf_creation_definition.sys_id}}","label":"action➛PDF Creation Definition➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_9104_pdf_manager_pdf_creation_definition","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.pdf_document_sys_id}}","label":"action➛PDF Document Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.pdf_document}}","label":"action➛PDF Document","type":"action","ref":"","reference_display":"PDF Document","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"c3b6c77b-3b54-4c05-ad40-d7a256353ebf"}},{"name":"{{action.attachment_sys_id}}","label":"action➛Attachment Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"0bcfb093-ce79-4d39-9e59-c2944ea2d4db"}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].variable}}","label":"step➛Get Fields➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields}}","label":"step➛Get Fields➛Fields","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].status}}","label":"step➛Get Fields➛Status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_array}}","label":"step➛Script step➛output_array","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","child_name":"output_array_child0","uiUniqueId":"727555a7-d54d-42a6-98c5-73641a9c2ae1","uiTypeLabel":"Array.Object","co_type_name":"FDbd978a18c9258510e28ab7b6d150b698","child_label":"output_array_child0","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"array.object","child_type":"object","child_uiUniqueId":"07a6d9b0-f5e4-468c-bac4-de473c283a03"}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_array.output_array_data}}","label":"step➛Script step➛output_array➛output_array_data","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_json}}","label":"step➛Script step➛output_json","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_sys_id}}","label":"step➛Script step➛New Attachment Sys ID","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_file_sys_id}}","label":"step➛Script step➛output_file_sys_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"04bc15a1-5ef5-4bc7-93ac-f90fcfedeac1"}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].status}}","label":"step➛Script step➛Status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].message}}","label":"step➛Script step➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <label_cache>[{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"","base_type":"file_attachment","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"File Attachment","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"file_attachment","uiUniqueId":"f6dda0f7-a298-462a-b1b9-77ad1e536927"}},{"name":"{{action.table}}","label":"action➛Table","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"d857461d-6601-4965-92fc-e41dc267203a"}},{"name":"{{action.target_sys_id}}","label":"action➛Target Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"609760af-3519-41dd-a2e7-89fd0d317e59"}},{"name":"{{action.source_file_attachment}}","label":"action➛Source File Attachment","type":"action","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Sys ID (GUID)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"GUID","uiUniqueId":"a53102e0-bfa0-471b-a7fc-0a1322d6a616"}},{"name":"{{action.output_pdf_name}}","label":"action➛Output PDF Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"0c484689-5af6-4fc6-8a39-772860f15e85"}},{"name":"{{action.pdf_creation_definition}}","label":"action➛PDF Creation Definition","type":"action","ref":"","reference_display":"PDF Creation Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"reference","uiUniqueId":"c8dddf74-373e-418c-a7fa-e438756d6ca9"}},{"name":"{{action.pdf_creation_definition.sys_id}}","label":"action➛PDF Creation Definition➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_9104_pdf_manager_pdf_creation_definition","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.pdf_document_sys_id}}","label":"action➛PDF Document Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.pdf_document}}","label":"action➛PDF Document","type":"action","ref":"","reference_display":"PDF Document","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"reference","uiUniqueId":"c3b6c77b-3b54-4c05-ad40-d7a256353ebf"}},{"name":"{{action.attachment_sys_id}}","label":"action➛Attachment Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"0bcfb093-ce79-4d39-9e59-c2944ea2d4db"}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].variable}}","label":"step➛Get Fields➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields}}","label":"step➛Get Fields➛Fields","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].status}}","label":"step➛Get Fields➛Status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_array}}","label":"step➛Script step➛output_array","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","child_name":"output_array_child0","uiUniqueId":"727555a7-d54d-42a6-98c5-73641a9c2ae1","uiTypeLabel":"Array.Object","co_type_name":"FDbd978a18c9258510e28ab7b6d150b698","child_label":"output_array_child0","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"array.object","child_type":"object","child_uiUniqueId":"07a6d9b0-f5e4-468c-bac4-de473c283a03"}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_array.output_array_data}}","label":"step➛Script step➛output_array➛output_array_data","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_json}}","label":"step➛Script step➛output_json","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_sys_id}}","label":"step➛Script step➛New Attachment Sys ID","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_file_sys_id}}","label":"step➛Script step➛output_file_sys_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"04bc15a1-5ef5-4bc7-93ac-f90fcfedeac1"}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].status}}","label":"step➛Script step➛Status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].message}}","label":"step➛Script step➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
         <master_snapshot>80db83d82f6d8510173252172799b60f</master_snapshot>
         <name>PDF Manager Create PDF</name>
         <natlang/>
@@ -25,7 +25,7 @@
         <sys_created_on>2022-02-03 21:54:16</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>014daa002f690510173252172799b677</sys_id>
-        <sys_mod_count>88</sys_mod_count>
+        <sys_mod_count>101</sys_mod_count>
         <sys_name>PDF Manager Create PDF</sys_name>
         <sys_overrides/>
         <sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_014daa002f690510173252172799b677</sys_update_name>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-04 18:46:16</sys_updated_on>
+        <sys_updated_on>2022-02-06 19:52:23</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -87,14 +87,14 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-03 22:02:43</sys_created_on>
         <sys_id>bc3fea4c2f690510173252172799b6bc</sys_id>
-        <sys_mod_count>53</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-04 18:45:25</sys_updated_on>
+        <sys_updated_on>2022-02-06 19:46:24</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bc3fea4c2f690510173252172799b6bc"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -119,25 +119,36 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-03 22:02:44</sys_created_on>
         <sys_id>c13fea4c2f690510173252172799b6dd</sys_id>
-        <sys_mod_count>47</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-04 18:45:25</sys_updated_on>
+        <sys_updated_on>2022-02-06 19:46:24</sys_updated_on>
         <value>(function execute(inputs, outputs) {
+  
+  // Find associated field definitions
+  
   var findRec = new GlideRecord(inputs.target_table);
   findRec.get(inputs.target_sys_id);
   var getFields = new GlideRecord('x_9104_pdf_manager_pdf_field_matching');
   getFields.addQuery('pdf_creation_definition',inputs.pdf_creation_def.getValue('sys_id'));
   getFields.addQuery('pdf_field.pdf_document',inputs.pdf_document.getValue('sys_id'));
+  getFields.addQuery('active',true);
   getFields.query();
 
   var dataObj = {};
   
+  // Go through each field
   
   while (getFields.next()) {
+    var outputValue = '';
     var propertyName = getFields.pdf_field.name.toString();
+
+    // If fields are using the field name from the target record
     if (getFields.use_script == false) {
-        dataObj[propertyName] = findRec.getElement(getFields.getValue('field')).toString();
+      outputValue = findRec.getElement(getFields.getValue('field')).toString();
     }
+    // End if when using just field name
+    
+    // If field is using a script
     if (getFields.use_script == true) {
       var vars = { 
             'answer' : '',
@@ -145,8 +156,22 @@
       }
       var evaluator = new GlideScopedEvaluator;
       evaluator.evaluateScript(getFields , 'script', vars);
-      dataObj[propertyName] = evaluator.getVariable('answer');
+      outputValue = evaluator.getVariable('answer');
     }
+    // End If for using script
+    
+    // If field is of type radio_button, find associated output value
+    if (getFields.pdf_field_type == 'radio_button') {
+         var findChoice = new GlideRecord('x_9104_pdf_manager_pdf_field_matching_choice');
+         findChoice.addQuery('record_value',outputValue);
+    	 findChoice.addQuery('pdf_field_matching',getFields.getValue('sys_id'));
+         findChoice.query();
+         if (findChoice.next()) {
+            outputValue = findChoice.getValue('pdf_value').toString(); 
+         }           
+       }
+    // End if of finding output value for radio button
+     dataObj[propertyName] = outputValue;
   }
   
   var pdf = new sn_pdfgeneratorutils.PDFGenerationAPI;
@@ -1103,7 +1128,7 @@
         <column_label/>
         <comments/>
         <create_roles/>
-        <default_value>{"display":"DD2875 for Testing","value":"e5ab29672f110110173252172799b6e5"}</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -1122,7 +1147,7 @@
         <hint/>
         <internal_type display_value="Reference">reference</internal_type>
         <label>PDF Document</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>32</max_length>
         <model display_value="PDF Manager Create PDF">014daa002f690510173252172799b677</model>
         <model_id>014daa002f690510173252172799b677</model_id>
@@ -1147,14 +1172,14 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-04 17:31:03</sys_created_on>
         <sys_id>039a3a542fe98510173252172799b673</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-04 17:51:20</sys_updated_on>
+        <sys_updated_on>2022-02-06 19:52:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1184,7 +1209,7 @@
         <column_label/>
         <comments/>
         <create_roles/>
-        <default_value>ca3326912f707010173252172799b654</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -1203,7 +1228,7 @@
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Target Sys ID</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="PDF Manager Create PDF">014daa002f690510173252172799b677</model>
         <model_id>014daa002f690510173252172799b677</model_id>
@@ -1228,14 +1253,14 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-04 17:51:20</sys_created_on>
         <sys_id>1c4ffadc2fe98510173252172799b6cc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-04 17:51:20</sys_updated_on>
+        <sys_updated_on>2022-02-06 19:52:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1265,7 +1290,7 @@
         <column_label/>
         <comments/>
         <create_roles/>
-        <default_value>4379169c2fa58510173252172799b636</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -1284,7 +1309,7 @@
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Attachment Sys ID</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="PDF Manager Create PDF">014daa002f690510173252172799b677</model>
         <model_id>014daa002f690510173252172799b677</model_id>
@@ -1309,14 +1334,14 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-04 17:51:21</sys_created_on>
         <sys_id>5c4ffadc2fe98510173252172799b6e0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-04 17:51:48</sys_updated_on>
+        <sys_updated_on>2022-02-06 19:52:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1346,7 +1371,7 @@
         <column_label/>
         <comments/>
         <create_roles/>
-        <default_value>incident</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -1365,7 +1390,7 @@
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Table</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="PDF Manager Create PDF">014daa002f690510173252172799b677</model>
         <model_id>014daa002f690510173252172799b677</model_id>
@@ -1390,14 +1415,14 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-03 21:55:15</sys_created_on>
         <sys_id>637d62882f690510173252172799b6dd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-04 17:51:20</sys_updated_on>
+        <sys_updated_on>2022-02-06 19:52:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1427,7 +1452,7 @@
         <column_label/>
         <comments/>
         <create_roles/>
-        <default_value>created_pdf.pdf</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -1446,7 +1471,7 @@
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Output PDF Name</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="PDF Manager Create PDF">014daa002f690510173252172799b677</model>
         <model_id>014daa002f690510173252172799b677</model_id>
@@ -1471,14 +1496,14 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-03 21:55:15</sys_created_on>
         <sys_id>eb7d62882f690510173252172799b6ea</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-04 17:51:20</sys_updated_on>
+        <sys_updated_on>2022-02-06 19:52:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1508,7 +1533,7 @@
         <column_label/>
         <comments/>
         <create_roles/>
-        <default_value>{"display":"Fillable DD2875 Form","value":"fb7611bf2f5d4110173252172799b6d2"}</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -1527,7 +1552,7 @@
         <hint/>
         <internal_type display_value="Reference">reference</internal_type>
         <label>PDF Creation Definition</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>32</max_length>
         <model display_value="PDF Manager Create PDF">014daa002f690510173252172799b677</model>
         <model_id>014daa002f690510173252172799b677</model_id>
@@ -1552,14 +1577,14 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-03 22:04:13</sys_created_on>
         <sys_id>f68fe68c2f690510173252172799b621</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-04 17:51:20</sys_updated_on>
+        <sys_updated_on>2022-02-06 19:52:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1938,13 +1963,13 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="PDF Manager Create PDF">014daa002f690510173252172799b677</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"e1dbc3d82f6d8510173252172799b6d9","name":"plan","plan_signature":null}}</plan>
-        <snapshot>c5dbc3d82f6d8510173252172799b624</snapshot>
+        <snapshot>702e2d492f610d10173252172799b632</snapshot>
         <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-04 18:46:19</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>e1dbc3d82f6d8510173252172799b6d9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1952,7 +1977,7 @@
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-04 18:46:19</sys_updated_on>
+        <sys_updated_on>2022-02-06 19:52:25</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1966,7 +1991,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>pdf_manager_create_pdf</internal_name>
-        <label_cache>[{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"","base_type":"file_attachment","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"File Attachment","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"file_attachment","uiUniqueId":"f6dda0f7-a298-462a-b1b9-77ad1e536927"}},{"name":"{{action.table}}","label":"action➛Table","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"d857461d-6601-4965-92fc-e41dc267203a"}},{"name":"{{action.target_sys_id}}","label":"action➛Target Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.source_file_attachment}}","label":"action➛Source File Attachment","type":"action","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Sys ID (GUID)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"GUID","uiUniqueId":"a53102e0-bfa0-471b-a7fc-0a1322d6a616"}},{"name":"{{action.output_pdf_name}}","label":"action➛Output PDF Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"0c484689-5af6-4fc6-8a39-772860f15e85"}},{"name":"{{action.pdf_creation_definition}}","label":"action➛PDF Creation Definition","type":"action","ref":"","reference_display":"PDF Creation Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"c8dddf74-373e-418c-a7fa-e438756d6ca9"}},{"name":"{{action.pdf_creation_definition.sys_id}}","label":"action➛PDF Creation Definition➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_9104_pdf_manager_pdf_creation_definition","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.pdf_document_sys_id}}","label":"action➛PDF Document Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.pdf_document}}","label":"action➛PDF Document","type":"action","ref":"","reference_display":"PDF Document","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"c3b6c77b-3b54-4c05-ad40-d7a256353ebf"}},{"name":"{{action.attachment_sys_id}}","label":"action➛Attachment Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"0bcfb093-ce79-4d39-9e59-c2944ea2d4db"}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].variable}}","label":"step➛Get Fields➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields}}","label":"step➛Get Fields➛Fields","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].status}}","label":"step➛Get Fields➛Status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_array}}","label":"step➛Script step➛output_array","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","child_name":"output_array_child0","uiUniqueId":"727555a7-d54d-42a6-98c5-73641a9c2ae1","uiTypeLabel":"Array.Object","co_type_name":"FDbd978a18c9258510e28ab7b6d150b698","child_label":"output_array_child0","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"array.object","child_type":"object","child_uiUniqueId":"07a6d9b0-f5e4-468c-bac4-de473c283a03"}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_array.output_array_data}}","label":"step➛Script step➛output_array➛output_array_data","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_json}}","label":"step➛Script step➛output_json","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_sys_id}}","label":"step➛Script step➛New Attachment Sys ID","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_file_sys_id}}","label":"step➛Script step➛output_file_sys_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"04bc15a1-5ef5-4bc7-93ac-f90fcfedeac1"}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].status}}","label":"step➛Script step➛Status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].message}}","label":"step➛Script step➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <label_cache>[{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"","base_type":"file_attachment","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"File Attachment","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"file_attachment","uiUniqueId":"f6dda0f7-a298-462a-b1b9-77ad1e536927"}},{"name":"{{action.table}}","label":"action➛Table","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"d857461d-6601-4965-92fc-e41dc267203a"}},{"name":"{{action.target_sys_id}}","label":"action➛Target Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"609760af-3519-41dd-a2e7-89fd0d317e59"}},{"name":"{{action.source_file_attachment}}","label":"action➛Source File Attachment","type":"action","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Sys ID (GUID)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"GUID","uiUniqueId":"a53102e0-bfa0-471b-a7fc-0a1322d6a616"}},{"name":"{{action.output_pdf_name}}","label":"action➛Output PDF Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"0c484689-5af6-4fc6-8a39-772860f15e85"}},{"name":"{{action.pdf_creation_definition}}","label":"action➛PDF Creation Definition","type":"action","ref":"","reference_display":"PDF Creation Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"reference","uiUniqueId":"c8dddf74-373e-418c-a7fa-e438756d6ca9"}},{"name":"{{action.pdf_creation_definition.sys_id}}","label":"action➛PDF Creation Definition➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_9104_pdf_manager_pdf_creation_definition","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.pdf_document_sys_id}}","label":"action➛PDF Document Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.pdf_document}}","label":"action➛PDF Document","type":"action","ref":"","reference_display":"PDF Document","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"reference","uiUniqueId":"c3b6c77b-3b54-4c05-ad40-d7a256353ebf"}},{"name":"{{action.attachment_sys_id}}","label":"action➛Attachment Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"0bcfb093-ce79-4d39-9e59-c2944ea2d4db"}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].variable}}","label":"step➛Get Fields➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields}}","label":"step➛Get Fields➛Fields","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].status}}","label":"step➛Get Fields➛Status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_array}}","label":"step➛Script step➛output_array","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","child_name":"output_array_child0","uiUniqueId":"727555a7-d54d-42a6-98c5-73641a9c2ae1","uiTypeLabel":"Array.Object","co_type_name":"FDbd978a18c9258510e28ab7b6d150b698","child_label":"output_array_child0","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"array.object","child_type":"object","child_uiUniqueId":"07a6d9b0-f5e4-468c-bac4-de473c283a03"}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_array.output_array_data}}","label":"step➛Script step➛output_array➛output_array_data","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_json}}","label":"step➛Script step➛output_json","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_sys_id}}","label":"step➛Script step➛New Attachment Sys ID","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_file_sys_id}}","label":"step➛Script step➛output_file_sys_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"04bc15a1-5ef5-4bc7-93ac-f90fcfedeac1"}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].status}}","label":"step➛Script step➛Status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].message}}","label":"step➛Script step➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
         <master>true</master>
         <name>PDF Manager Create PDF</name>
         <natlang/>
@@ -1977,7 +2002,7 @@
         <sys_created_on>2022-02-04 18:46:13</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>80db83d82f6d8510173252172799b60f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1985,7 +2010,7 @@
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-04 18:46:13</sys_updated_on>
+        <sys_updated_on>2022-02-06 19:52:21</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -2039,14 +2064,14 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-04 18:46:14</sys_created_on>
         <sys_id>2cdb83d82f6d8510173252172799b685</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-04 18:46:16</sys_updated_on>
+        <sys_updated_on>2022-02-06 19:52:23</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2cdb83d82f6d8510173252172799b685"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2057,25 +2082,36 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-04 18:46:16</sys_created_on>
         <sys_id>70db83d82f6d8510173252172799b6d4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-04 18:46:16</sys_updated_on>
+        <sys_updated_on>2022-02-06 19:52:23</sys_updated_on>
         <value>(function execute(inputs, outputs) {
+  
+  // Find associated field definitions
+  
   var findRec = new GlideRecord(inputs.target_table);
   findRec.get(inputs.target_sys_id);
   var getFields = new GlideRecord('x_9104_pdf_manager_pdf_field_matching');
   getFields.addQuery('pdf_creation_definition',inputs.pdf_creation_def.getValue('sys_id'));
   getFields.addQuery('pdf_field.pdf_document',inputs.pdf_document.getValue('sys_id'));
+  getFields.addQuery('active',true);
   getFields.query();
 
   var dataObj = {};
   
+  // Go through each field
   
   while (getFields.next()) {
+    var outputValue = '';
     var propertyName = getFields.pdf_field.name.toString();
+
+    // If fields are using the field name from the target record
     if (getFields.use_script == false) {
-        dataObj[propertyName] = findRec.getElement(getFields.getValue('field')).toString();
+      outputValue = findRec.getElement(getFields.getValue('field')).toString();
     }
+    // End if when using just field name
+    
+    // If field is using a script
     if (getFields.use_script == true) {
       var vars = { 
             'answer' : '',
@@ -2083,8 +2119,22 @@
       }
       var evaluator = new GlideScopedEvaluator;
       evaluator.evaluateScript(getFields , 'script', vars);
-      dataObj[propertyName] = evaluator.getVariable('answer');
+      outputValue = evaluator.getVariable('answer');
     }
+    // End If for using script
+    
+    // If field is of type radio_button, find associated output value
+    if (getFields.pdf_field_type == 'radio_button') {
+         var findChoice = new GlideRecord('x_9104_pdf_manager_pdf_field_matching_choice');
+         findChoice.addQuery('record_value',outputValue);
+    	 findChoice.addQuery('pdf_field_matching',getFields.getValue('sys_id'));
+         findChoice.query();
+         if (findChoice.next()) {
+            outputValue = findChoice.getValue('pdf_value').toString(); 
+         }           
+       }
+    // End if of finding output value for radio button
+     dataObj[propertyName] = outputValue;
   }
   
   var pdf = new sn_pdfgeneratorutils.PDFGenerationAPI;
@@ -3031,7 +3081,7 @@
         <column_label/>
         <comments/>
         <create_roles/>
-        <default_value>incident</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -3050,7 +3100,7 @@
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Table</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="PDF Manager Create PDF">80db83d82f6d8510173252172799b60f</model>
         <model_id>80db83d82f6d8510173252172799b60f</model_id>
@@ -3075,14 +3125,14 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-04 18:46:13</sys_created_on>
         <sys_id>08db83d82f6d8510173252172799b612</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-04 18:46:13</sys_updated_on>
+        <sys_updated_on>2022-02-06 19:52:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3131,7 +3181,7 @@
         <hint/>
         <internal_type display_value="Reference">reference</internal_type>
         <label>PDF Creation Definition</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>32</max_length>
         <model display_value="PDF Manager Create PDF">80db83d82f6d8510173252172799b60f</model>
         <model_id>80db83d82f6d8510173252172799b60f</model_id>
@@ -3156,14 +3206,14 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-04 18:46:13</sys_created_on>
         <sys_id>14db83d82f6d8510173252172799b62a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-04 18:46:13</sys_updated_on>
+        <sys_updated_on>2022-02-06 19:52:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3193,7 +3243,7 @@
         <column_label/>
         <comments/>
         <create_roles/>
-        <default_value>4379169c2fa58510173252172799b636</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -3212,7 +3262,7 @@
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Attachment Sys ID</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="PDF Manager Create PDF">80db83d82f6d8510173252172799b60f</model>
         <model_id>80db83d82f6d8510173252172799b60f</model_id>
@@ -3237,14 +3287,14 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-04 18:46:14</sys_created_on>
         <sys_id>1cdb83d82f6d8510173252172799b65d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-04 18:46:14</sys_updated_on>
+        <sys_updated_on>2022-02-06 19:52:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3274,7 +3324,7 @@
         <column_label/>
         <comments/>
         <create_roles/>
-        <default_value>ca3326912f707010173252172799b654</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -3293,7 +3343,7 @@
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Target Sys ID</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="PDF Manager Create PDF">80db83d82f6d8510173252172799b60f</model>
         <model_id>80db83d82f6d8510173252172799b60f</model_id>
@@ -3318,14 +3368,14 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-04 18:46:14</sys_created_on>
         <sys_id>90db83d82f6d8510173252172799b652</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-04 18:46:14</sys_updated_on>
+        <sys_updated_on>2022-02-06 19:52:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3355,7 +3405,7 @@
         <column_label/>
         <comments/>
         <create_roles/>
-        <default_value>created_pdf.pdf</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -3374,7 +3424,7 @@
         <hint/>
         <internal_type display_value="String">string</internal_type>
         <label>Output PDF Name</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>8000</max_length>
         <model display_value="PDF Manager Create PDF">80db83d82f6d8510173252172799b60f</model>
         <model_id>80db83d82f6d8510173252172799b60f</model_id>
@@ -3399,14 +3449,14 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-04 18:46:13</sys_created_on>
         <sys_id>98db83d82f6d8510173252172799b61e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-04 18:46:13</sys_updated_on>
+        <sys_updated_on>2022-02-06 19:52:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3432,7 +3482,7 @@
 })(current);]]></calculation>
         <choice/>
         <choice_field/>
-        <choice_table/>
+        <choice_table>x_9104_pdf_manager_pdf_document</choice_table>
         <column_label/>
         <comments/>
         <create_roles/>
@@ -3455,7 +3505,7 @@
         <hint/>
         <internal_type display_value="Reference">reference</internal_type>
         <label>PDF Document</label>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>32</max_length>
         <model display_value="PDF Manager Create PDF">80db83d82f6d8510173252172799b60f</model>
         <model_id>80db83d82f6d8510173252172799b60f</model_id>
@@ -3480,14 +3530,14 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-04 18:46:13</sys_created_on>
         <sys_id>98db83d82f6d8510173252172799b64a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-04 18:46:13</sys_updated_on>
+        <sys_updated_on>2022-02-06 19:52:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
