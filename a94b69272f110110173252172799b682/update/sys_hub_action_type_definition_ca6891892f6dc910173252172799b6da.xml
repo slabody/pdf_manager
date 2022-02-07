@@ -1,0 +1,1705 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-rome-06-23-2021__patch5-12-15-2021_01-04-2022_2221.zip</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Takes an array in string form ( [1,2,3] ) and converts it to an array for use in Flow Designer.</description>
+        <ih_action>false</ih_action>
+        <internal_name>pdf_manager_convert_string_to_array</internal_name>
+        <label_cache>[{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"","base_type":"file_attachment","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"File Attachment","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"file_attachment","uiUniqueId":"f6dda0f7-a298-462a-b1b9-77ad1e536927"}},{"name":"{{action.table}}","label":"action➛Table","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"d857461d-6601-4965-92fc-e41dc267203a"}},{"name":"{{action.target_sys_id}}","label":"action➛Target Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.source_file_attachment}}","label":"action➛Source File Attachment","type":"action","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Sys ID (GUID)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"GUID","uiUniqueId":"a53102e0-bfa0-471b-a7fc-0a1322d6a616"}},{"name":"{{action.output_pdf_name}}","label":"action➛Output PDF Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"0c484689-5af6-4fc6-8a39-772860f15e85"}},{"name":"{{action.pdf_creation_definition}}","label":"action➛PDF Creation Definition","type":"action","ref":"","reference_display":"PDF Creation Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"c8dddf74-373e-418c-a7fa-e438756d6ca9"}},{"name":"{{action.pdf_creation_definition.sys_id}}","label":"action➛PDF Creation Definition➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_9104_pdf_manager_pdf_creation_definition","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.pdf_document_sys_id}}","label":"action➛PDF Document Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.pdf_document}}","label":"action➛PDF Document","type":"action","ref":"","reference_display":"PDF Document","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"c3b6c77b-3b54-4c05-ad40-d7a256353ebf"}},{"name":"{{action.attachment_sys_id}}","label":"action➛Attachment Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"0bcfb093-ce79-4d39-9e59-c2944ea2d4db"}},{"name":"{{action.array_as_string}}","label":"action➛Array as String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].variable}}","label":"step➛Get Fields➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields}}","label":"step➛Get Fields➛Fields","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].status}}","label":"step➛Get Fields➛Status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_array}}","label":"step➛Script step➛output_array","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","child_name":"output_array_child0","uiUniqueId":"727555a7-d54d-42a6-98c5-73641a9c2ae1","uiTypeLabel":"Array.Object","co_type_name":"FDbd978a18c9258510e28ab7b6d150b698","child_label":"output_array_child0","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"array.object","child_type":"object","child_uiUniqueId":"07a6d9b0-f5e4-468c-bac4-de473c283a03"}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_array.output_array_data}}","label":"step➛Script step➛output_array➛output_array_data","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_json}}","label":"step➛Script step➛output_json","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_sys_id}}","label":"step➛Script step➛New Attachment Sys ID","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_file_sys_id}}","label":"step➛Script step➛output_file_sys_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"04bc15a1-5ef5-4bc7-93ac-f90fcfedeac1"}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].status}}","label":"step➛Script step➛Status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].message}}","label":"step➛Script step➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields_object_array}}","label":"step➛Get Fields➛Fields Object Array","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields_object_array.Fields_Object_Array_Data}}","label":"step➛Get Fields➛Fields Object Array➛Fields Object Array_Data","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields_object_array.Fields_Object_Array_Data.fields_object_array_data_child1}}","label":"step➛Get Fields➛Fields Object Array➛Fields Object Array_Data➛Fields Object Array_Data_child1","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields_object_array.Fields_Object_Array_Data.Field_Name}}","label":"step➛Get Fields➛Fields Object Array➛Fields Object Array_Data➛Field Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields_object_array.Fields_Object_Array_Data.field_name}}","label":"step➛Get Fields➛Fields Object Array➛Fields Object Array_Data➛Field Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields_object_array.Fields_Object_Array_Data.fields_object_array_data_child2}}","label":"step➛Get Fields➛Fields Object Array➛Fields Object Array_Data➛Fields Object Array_Data_child2","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields_object_array.Fields_Object_Array_Data.Field_Type}}","label":"step➛Get Fields➛Fields Object Array➛Fields Object Array_Data➛Field Type","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields_object_array.Fields_Object_Array_Data.field_type}}","label":"step➛Get Fields➛Fields Object Array➛Fields Object Array_Data➛Field Type","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields_object_array.Fields_Object_Array_Data.fields_object_array_data_child3}}","label":"step➛Get Fields➛Fields Object Array➛Fields Object Array_Data➛Fields Object Array_Data_child3","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields_object_array.Fields_Object_Array_Data.Field_Options}}","label":"step➛Get Fields➛Fields Object Array➛Fields Object Array_Data➛Field Options","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields_object_array.Fields_Object_Array_Data.field_options}}","label":"step➛Get Fields➛Fields Object Array➛Fields Object Array_Data➛Field Options","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[a58a9ba8-49cd-486d-9677-8db5c97126df].variable}}","label":"step➛Convert String to Array➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a58a9ba8-49cd-486d-9677-8db5c97126df].output_array}}","label":"step➛Convert String to Array➛Output Array","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[a58a9ba8-49cd-486d-9677-8db5c97126df].output_array.String_Value}}","label":"step➛Convert String to Array➛Output Array➛String Value","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <master_snapshot>74895d892fadc910173252172799b6a4</master_snapshot>
+        <name>PDF Manager Convert String to Array</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:17:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>ca6891892f6dc910173252172799b6da</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>PDF Manager Convert String to Array</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_ca6891892f6dc910173252172799b6da</sys_update_name>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 21:04:49</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=ca6891892f6dc910173252172799b6da"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ca6891892f6dc910173252172799b6da"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>ca6891892f6dc910173252172799b6da</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:11</sys_created_on>
+        <sys_id>23791d892fadc910173252172799b6e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:11</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">23791d892fadc910173252172799b6d5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>ca6891892f6dc910173252172799b6da</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:11</sys_created_on>
+        <sys_id>e3791d892fadc910173252172799b6e3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:15</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDe7791d89e2adc9108b1e57420fb6d6a5":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDe7791d89e2adc9108b1e57420fb6d6a5.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"d0f65f24-c9a3-4288-a7f9-b66b61589696\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDe7791d89e2adc9108b1e57420fb6d6a5\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">2f791d892fadc910173252172799b6a7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ca6891892f6dc910173252172799b6da"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>array</field>
+        <id>ca6891892f6dc910173252172799b6da</id>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:29:21</sys_created_on>
+        <sys_id>ec2b1d8d2fadc910173252172799b648</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:29:21</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ca6891892f6dc910173252172799b6da</table>
+        <value>{{step[a58a9ba8-49cd-486d-9677-8db5c97126df].output_array}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>ca6891892f6dc910173252172799b6da</id>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:11</sys_created_on>
+        <sys_id>af791d892fadc910173252172799b6e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:11</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ca6891892f6dc910173252172799b6da</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>ca6891892f6dc910173252172799b6da</id>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:11</sys_created_on>
+        <sys_id>eb791d892fadc910173252172799b6e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:11</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ca6891892f6dc910173252172799b6da</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=ca6891892f6dc910173252172799b6da^sys_idNOT INdd5955892fadc910173252172799b6fa"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="PDF Manager Convert String to Array">ca6891892f6dc910173252172799b6da</action>
+        <cid>a58a9ba8-49cd-486d-9677-8db5c97126df</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Convert String to Array</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:21:28</sys_created_on>
+        <sys_id>dd5955892fadc910173252172799b6fa</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 21:04:41</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dd5955892fadc910173252172799b6fa"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dd5955892fadc910173252172799b6fa</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:21:29</sys_created_on>
+        <sys_id>695995892fadc910173252172799b630</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 21:04:41</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+  
+  var inputString = inputs.array_string.toString();
+  if (inputString.substring(0,1) == '[') {
+    var editString = inputString.substring(1,inputString.length-1);
+  }
+  else {
+    editString = inputString; 
+  }
+  var editString = inputString.substring(1,inputString.length-1);
+  outputs.output_array = inputString.split(',');
+  
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dd5955892fadc910173252172799b6fa</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:21:29</sys_created_on>
+        <sys_id>a15995892fadc910173252172799b630</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:21:29</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dd5955892fadc910173252172799b6fa"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>dd5955892fadc910173252172799b6fa</id>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:21:29</sys_created_on>
+        <sys_id>595995892fadc910173252172799b62f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:21:29</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>array_string</field>
+        <id>dd5955892fadc910173252172799b6fa</id>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:21:29</sys_created_on>
+        <sys_id>a55995892fadc910173252172799b631</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:21:29</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_dd5955892fadc910173252172799b6fa</table>
+        <value>{{action.array_as_string}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>dd5955892fadc910173252172799b6fa</id>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:21:29</sys_created_on>
+        <sys_id>215995892fadc910173252172799b630</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:21:29</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_dd5955892fadc910173252172799b6fa^id=dd5955892fadc910173252172799b6fa"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=dd5955892fadc910173252172799b6fa"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=dd5955892fadc910173252172799b6fa^sys_idNOT IN9d5995892fadc910173252172799b602"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>array_string</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Convert String to Array">dd5955892fadc910173252172799b6fa</model>
+        <model_id>dd5955892fadc910173252172799b6fa</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_dd5955892fadc910173252172799b6fa</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:21:29</sys_created_on>
+        <sys_id>9d5995892fadc910173252172799b602</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:21:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=dd5955892fadc910173252172799b6fa^sys_idNOT IN195995892fadc910173252172799b618"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=String Value,child_name=String_Value,child_type=string,child_type_label=String,child_uiUniqueId=3a9ab2f3-0dec-4bae-a227-2aabeb2ae3e9,co_type_name=FD155995891aadc910c3ccd0ba122f9b15,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=4f9b2dab-789b-4be0-a422-f0286224e08d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>output_array</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Output Array</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Convert String to Array">dd5955892fadc910173252172799b6fa</model>
+        <model_id>dd5955892fadc910173252172799b6fa</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_dd5955892fadc910173252172799b6fa</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:21:29</sys_created_on>
+        <sys_id>195995892fadc910173252172799b618</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:21:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_dd5955892fadc910173252172799b6fa^sys_idNOT INd15995892fadc910173252172799b62b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>output_array</element>
+        <help/>
+        <hint/>
+        <label>Output Array</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_dd5955892fadc910173252172799b6fa</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:21:29</sys_created_on>
+        <sys_id>d15995892fadc910173252172799b62b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:21:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=ca6891892f6dc910173252172799b6da^sys_idNOT IN4d5955892fadc910173252172799b6ec"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=42b1b0cf-f7f1-42fa-b335-4bef82c82ddb</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>[1,2,3,4]</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>array_as_string</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Array as String</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="PDF Manager Convert String to Array">ca6891892f6dc910173252172799b6da</model>
+        <model_id>ca6891892f6dc910173252172799b6da</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_ca6891892f6dc910173252172799b6da</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:21:28</sys_created_on>
+        <sys_id>4d5955892fadc910173252172799b6ec</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:21:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=ca6891892f6dc910173252172799b6da^sys_idNOT IN23791d892fadc910173252172799b6d5,2f791d892fadc910173252172799b6a7,dc2b1d8d2fadc910173252172799b63e"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=195b6810-e86e-4c76-acd4-13e0fe530676,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="PDF Manager Convert String to Array">ca6891892f6dc910173252172799b6da</model>
+        <model_id>ca6891892f6dc910173252172799b6da</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_ca6891892f6dc910173252172799b6da</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:11</sys_created_on>
+        <sys_id>23791d892fadc910173252172799b6d5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDe7791d89e2adc9108b1e57420fb6d6a5,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=d0f65f24-c9a3-4288-a7f9-b66b61589696</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="PDF Manager Convert String to Array">ca6891892f6dc910173252172799b6da</model>
+        <model_id>ca6891892f6dc910173252172799b6da</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_ca6891892f6dc910173252172799b6da</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:11</sys_created_on>
+        <sys_id>2f791d892fadc910173252172799b6a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=String Value,child_name=string_value,child_type=string,child_type_label=String,child_uiUniqueId=5c7933b1-c8f4-4687-886c-9b978942f57a,co_type_name=FD502b1d8de4adc9102feb774bba30ef39,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=b010c98c-3853-4bc6-8359-c2261a66f73a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>array</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Array</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="PDF Manager Convert String to Array">ca6891892f6dc910173252172799b6da</model>
+        <model_id>ca6891892f6dc910173252172799b6da</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_ca6891892f6dc910173252172799b6da</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:29:20</sys_created_on>
+        <sys_id>dc2b1d8d2fadc910173252172799b63e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:29:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=ca6891892f6dc910173252172799b6da^sys_idNOT INa55995892fadc910173252172799b642"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="PDF Manager Convert String to Array">ca6891892f6dc910173252172799b6da</action_type_id>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:21:30</sys_created_on>
+        <sys_id>a55995892fadc910173252172799b642</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:21:30</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_ca6891892f6dc910173252172799b6da^sys_idNOT INd55955892fadc910173252172799b6f8"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>array_as_string</element>
+        <help/>
+        <hint/>
+        <label>Array as String</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_ca6891892f6dc910173252172799b6da</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:21:28</sys_created_on>
+        <sys_id>d55955892fadc910173252172799b6f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:21:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_ca6891892f6dc910173252172799b6da^sys_idNOT IN6b791d892fadc910173252172799b6d3,a82b1d8d2fadc910173252172799b645,eb791d892fadc910173252172799b6df"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ca6891892f6dc910173252172799b6da</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:11</sys_created_on>
+        <sys_id>6b791d892fadc910173252172799b6d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>array</element>
+        <help/>
+        <hint/>
+        <label>Array</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ca6891892f6dc910173252172799b6da</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:29:20</sys_created_on>
+        <sys_id>a82b1d8d2fadc910173252172799b645</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:29:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ca6891892f6dc910173252172799b6da</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:11</sys_created_on>
+        <sys_id>eb791d892fadc910173252172799b6df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=ca6891892f6dc910173252172799b6da^sys_idNOT IN95899d892fadc910173252172799b678"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="PDF Manager Convert String to Array">ca6891892f6dc910173252172799b6da</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"95899d892fadc910173252172799b678","name":"plan","plan_signature":null}}</plan>
+        <snapshot>39beb5812f250d10173252172799b618</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>95899d892fadc910173252172799b678</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 21:04:50</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Takes an array in string form ( [1,2,3] ) and converts it to an array for use in Flow Designer.</description>
+        <internal_name>pdf_manager_convert_string_to_array</internal_name>
+        <label_cache>[{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"","base_type":"file_attachment","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"File Attachment","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"file_attachment","uiUniqueId":"f6dda0f7-a298-462a-b1b9-77ad1e536927"}},{"name":"{{action.table}}","label":"action➛Table","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"d857461d-6601-4965-92fc-e41dc267203a"}},{"name":"{{action.target_sys_id}}","label":"action➛Target Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.source_file_attachment}}","label":"action➛Source File Attachment","type":"action","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Sys ID (GUID)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"GUID","uiUniqueId":"a53102e0-bfa0-471b-a7fc-0a1322d6a616"}},{"name":"{{action.output_pdf_name}}","label":"action➛Output PDF Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"0c484689-5af6-4fc6-8a39-772860f15e85"}},{"name":"{{action.pdf_creation_definition}}","label":"action➛PDF Creation Definition","type":"action","ref":"","reference_display":"PDF Creation Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"c8dddf74-373e-418c-a7fa-e438756d6ca9"}},{"name":"{{action.pdf_creation_definition.sys_id}}","label":"action➛PDF Creation Definition➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_9104_pdf_manager_pdf_creation_definition","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.pdf_document_sys_id}}","label":"action➛PDF Document Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.pdf_document}}","label":"action➛PDF Document","type":"action","ref":"","reference_display":"PDF Document","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"c3b6c77b-3b54-4c05-ad40-d7a256353ebf"}},{"name":"{{action.attachment_sys_id}}","label":"action➛Attachment Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"0bcfb093-ce79-4d39-9e59-c2944ea2d4db"}},{"name":"{{action.array_as_string}}","label":"action➛Array as String","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].variable}}","label":"step➛Get Fields➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields}}","label":"step➛Get Fields➛Fields","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].status}}","label":"step➛Get Fields➛Status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_array}}","label":"step➛Script step➛output_array","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","child_name":"output_array_child0","uiUniqueId":"727555a7-d54d-42a6-98c5-73641a9c2ae1","uiTypeLabel":"Array.Object","co_type_name":"FDbd978a18c9258510e28ab7b6d150b698","child_label":"output_array_child0","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"array.object","child_type":"object","child_uiUniqueId":"07a6d9b0-f5e4-468c-bac4-de473c283a03"}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_array.output_array_data}}","label":"step➛Script step➛output_array➛output_array_data","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_json}}","label":"step➛Script step➛output_json","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_sys_id}}","label":"step➛Script step➛New Attachment Sys ID","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_file_sys_id}}","label":"step➛Script step➛output_file_sys_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"04bc15a1-5ef5-4bc7-93ac-f90fcfedeac1"}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].status}}","label":"step➛Script step➛Status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].message}}","label":"step➛Script step➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields_object_array}}","label":"step➛Get Fields➛Fields Object Array","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields_object_array.Fields_Object_Array_Data}}","label":"step➛Get Fields➛Fields Object Array➛Fields Object Array_Data","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields_object_array.Fields_Object_Array_Data.fields_object_array_data_child1}}","label":"step➛Get Fields➛Fields Object Array➛Fields Object Array_Data➛Fields Object Array_Data_child1","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields_object_array.Fields_Object_Array_Data.Field_Name}}","label":"step➛Get Fields➛Fields Object Array➛Fields Object Array_Data➛Field Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields_object_array.Fields_Object_Array_Data.field_name}}","label":"step➛Get Fields➛Fields Object Array➛Fields Object Array_Data➛Field Name","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields_object_array.Fields_Object_Array_Data.fields_object_array_data_child2}}","label":"step➛Get Fields➛Fields Object Array➛Fields Object Array_Data➛Fields Object Array_Data_child2","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields_object_array.Fields_Object_Array_Data.Field_Type}}","label":"step➛Get Fields➛Fields Object Array➛Fields Object Array_Data➛Field Type","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields_object_array.Fields_Object_Array_Data.field_type}}","label":"step➛Get Fields➛Fields Object Array➛Fields Object Array_Data➛Field Type","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields_object_array.Fields_Object_Array_Data.fields_object_array_data_child3}}","label":"step➛Get Fields➛Fields Object Array➛Fields Object Array_Data➛Fields Object Array_Data_child3","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields_object_array.Fields_Object_Array_Data.Field_Options}}","label":"step➛Get Fields➛Fields Object Array➛Fields Object Array_Data➛Field Options","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields_object_array.Fields_Object_Array_Data.field_options}}","label":"step➛Get Fields➛Fields Object Array➛Fields Object Array_Data➛Field Options","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[a58a9ba8-49cd-486d-9677-8db5c97126df].variable}}","label":"step➛Convert String to Array➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[a58a9ba8-49cd-486d-9677-8db5c97126df].output_array}}","label":"step➛Convert String to Array➛Output Array","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[a58a9ba8-49cd-486d-9677-8db5c97126df].output_array.String_Value}}","label":"step➛Convert String to Array➛Output Array➛String Value","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <master>true</master>
+        <name>PDF Manager Convert String to Array</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="PDF Manager Convert String to Array">ca6891892f6dc910173252172799b6da</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>74895d892fadc910173252172799b6a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:16</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=74895d892fadc910173252172799b6a4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=74895d892fadc910173252172799b6a4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>74895d892fadc910173252172799b6a4</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:17</sys_created_on>
+        <sys_id>81895d892fadc910173252172799b6f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:17</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FD4d895d89e5adc910b21d7e14d78b89db":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD4d895d89e5adc910b21d7e14d78b89db.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"d0f65f24-c9a3-4288-a7f9-b66b61589696\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD4d895d89e5adc910b21d7e14d78b89db\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">05895d892fadc910173252172799b6de</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>74895d892fadc910173252172799b6a4</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:17</sys_created_on>
+        <sys_id>cd895d892fadc910173252172799b6f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:17</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">41895d892fadc910173252172799b6e6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=74895d892fadc910173252172799b6a4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>array</field>
+        <id>74895d892fadc910173252172799b6a4</id>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:29:51</sys_created_on>
+        <sys_id>b33b51cd2fadc910173252172799b6ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:29:51</sys_updated_on>
+        <table>var__m_sys_hub_action_output_74895d892fadc910173252172799b6a4</table>
+        <value>{{step[a58a9ba8-49cd-486d-9677-8db5c97126df].output_array}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>74895d892fadc910173252172799b6a4</id>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:17</sys_created_on>
+        <sys_id>4d895d892fadc910173252172799b6f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:17</sys_updated_on>
+        <table>var__m_sys_hub_action_output_74895d892fadc910173252172799b6a4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>74895d892fadc910173252172799b6a4</id>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:17</sys_created_on>
+        <sys_id>89895d892fadc910173252172799b6f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:17</sys_updated_on>
+        <table>var__m_sys_hub_action_output_74895d892fadc910173252172799b6a4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=74895d892fadc910173252172799b6a4^sys_idNOT INb0895d892fadc910173252172799b6b5"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="PDF Manager Convert String to Array">74895d892fadc910173252172799b6a4</action>
+        <cid>a58a9ba8-49cd-486d-9677-8db5c97126df</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Convert String to Array</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:16</sys_created_on>
+        <sys_id>b0895d892fadc910173252172799b6b5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 21:04:48</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b0895d892fadc910173252172799b6b5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b0895d892fadc910173252172799b6b5</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:16</sys_created_on>
+        <sys_id>05895d892fadc910173252172799b6d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:16</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>b0895d892fadc910173252172799b6b5</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:16</sys_created_on>
+        <sys_id>c5895d892fadc910173252172799b6d8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 21:04:48</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+  
+  var inputString = inputs.array_string.toString();
+  if (inputString.substring(0,1) == '[') {
+    var editString = inputString.substring(1,inputString.length-1);
+  }
+  else {
+    editString = inputString; 
+  }
+  var editString = inputString.substring(1,inputString.length-1);
+  outputs.output_array = inputString.split(',');
+  
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b0895d892fadc910173252172799b6b5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>b0895d892fadc910173252172799b6b5</id>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:16</sys_created_on>
+        <sys_id>cd895d892fadc910173252172799b6d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:16</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>array_string</field>
+        <id>b0895d892fadc910173252172799b6b5</id>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:17</sys_created_on>
+        <sys_id>41895d892fadc910173252172799b6d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:17</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_b0895d892fadc910173252172799b6b5</table>
+        <value>{{action.array_as_string}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>b0895d892fadc910173252172799b6b5</id>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:16</sys_created_on>
+        <sys_id>81895d892fadc910173252172799b6d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:16</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_b0895d892fadc910173252172799b6b5^id=b0895d892fadc910173252172799b6b5"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=b0895d892fadc910173252172799b6b5"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=b0895d892fadc910173252172799b6b5^sys_idNOT INb4895d892fadc910173252172799b6b8"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>array_string</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>array_string</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Convert String to Array">b0895d892fadc910173252172799b6b5</model>
+        <model_id>b0895d892fadc910173252172799b6b5</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_b0895d892fadc910173252172799b6b5</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:16</sys_created_on>
+        <sys_id>b4895d892fadc910173252172799b6b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=b0895d892fadc910173252172799b6b5^sys_idNOT IN7c895d892fadc910173252172799b6c1"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=String Value,child_name=String_Value,child_type=string,child_type_label=String,child_uiUniqueId=3a9ab2f3-0dec-4bae-a227-2aabeb2ae3e9,co_type_name=FD38895d8966adc9103ffc029dbd8fb7bf,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=4f9b2dab-789b-4be0-a422-f0286224e08d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>output_array</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Output Array</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Convert String to Array">b0895d892fadc910173252172799b6b5</model>
+        <model_id>b0895d892fadc910173252172799b6b5</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_b0895d892fadc910173252172799b6b5</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:16</sys_created_on>
+        <sys_id>7c895d892fadc910173252172799b6c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_b0895d892fadc910173252172799b6b5^sys_idNOT INc9895d892fadc910173252172799b6c7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>output_array</element>
+        <help/>
+        <hint/>
+        <label>Output Array</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_b0895d892fadc910173252172799b6b5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:16</sys_created_on>
+        <sys_id>c9895d892fadc910173252172799b6c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=74895d892fadc910173252172799b6a4^sys_idNOT IN7c895d892fadc910173252172799b6a7"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=42b1b0cf-f7f1-42fa-b335-4bef82c82ddb</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>[1,2,3,4]</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>array_as_string</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Array as String</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="PDF Manager Convert String to Array">74895d892fadc910173252172799b6a4</model>
+        <model_id>74895d892fadc910173252172799b6a4</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_74895d892fadc910173252172799b6a4</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:16</sys_created_on>
+        <sys_id>7c895d892fadc910173252172799b6a7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=74895d892fadc910173252172799b6a4^sys_idNOT IN05895d892fadc910173252172799b6de,373b51cd2fadc910173252172799b698,41895d892fadc910173252172799b6e6"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD4d895d89e5adc910b21d7e14d78b89db,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=d0f65f24-c9a3-4288-a7f9-b66b61589696</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="PDF Manager Convert String to Array">74895d892fadc910173252172799b6a4</model>
+        <model_id>74895d892fadc910173252172799b6a4</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_74895d892fadc910173252172799b6a4</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:17</sys_created_on>
+        <sys_id>05895d892fadc910173252172799b6de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=String Value,child_name=string_value,child_type=string,child_type_label=String,child_uiUniqueId=5c7933b1-c8f4-4687-886c-9b978942f57a,co_type_name=FDbf3b51cd32adc910898dde9f4ad0c492,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=array.string,uiTypeLabel=Array.String,uiUniqueId=b010c98c-3853-4bc6-8359-c2261a66f73a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>array</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Array</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="PDF Manager Convert String to Array">74895d892fadc910173252172799b6a4</model>
+        <model_id>74895d892fadc910173252172799b6a4</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_74895d892fadc910173252172799b6a4</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:29:50</sys_created_on>
+        <sys_id>373b51cd2fadc910173252172799b698</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:29:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=195b6810-e86e-4c76-acd4-13e0fe530676,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="PDF Manager Convert String to Array">74895d892fadc910173252172799b6a4</model>
+        <model_id>74895d892fadc910173252172799b6a4</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_74895d892fadc910173252172799b6a4</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:17</sys_created_on>
+        <sys_id>41895d892fadc910173252172799b6e6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=74895d892fadc910173252172799b6a4^sys_idNOT IN4d895d892fadc910173252172799b6f5"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="PDF Manager Convert String to Array">74895d892fadc910173252172799b6a4</action_type_id>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:17</sys_created_on>
+        <sys_id>4d895d892fadc910173252172799b6f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:17</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_74895d892fadc910173252172799b6a4^sys_idNOT IN3c895d892fadc910173252172799b6b2"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>array_as_string</element>
+        <help/>
+        <hint/>
+        <label>Array as String</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_74895d892fadc910173252172799b6a4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:16</sys_created_on>
+        <sys_id>3c895d892fadc910173252172799b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:16</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_74895d892fadc910173252172799b6a4^sys_idNOT IN89895d892fadc910173252172799b6e4,89895d892fadc910173252172799b6f0,bf3b51cd2fadc910173252172799b6aa"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_74895d892fadc910173252172799b6a4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:17</sys_created_on>
+        <sys_id>89895d892fadc910173252172799b6e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_74895d892fadc910173252172799b6a4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:22:17</sys_created_on>
+        <sys_id>89895d892fadc910173252172799b6f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:22:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>array</element>
+        <help/>
+        <hint/>
+        <label>Array</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_74895d892fadc910173252172799b6a4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:29:51</sys_created_on>
+        <sys_id>bf3b51cd2fadc910173252172799b6aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:29:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_type_definition action="update">
+        <sys_id>ca6891892f6dc910173252172799b6da</sys_id>
+        <latest_snapshot>74895d892fadc910173252172799b6a4</latest_snapshot>
+    </sys_hub_action_type_definition>
+</record_update>
