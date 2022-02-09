@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="PDF Field Matching" max_length="40" name="x_9104_pdf_manager_pdf_field_matching" sizeclass="15" type="collection">
+    <element label="PDF Field Matching" max_length="40" name="x_9104_pdf_manager_pdf_field_matching" sizeclass="18" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element dependent="table" dependent_on_field="table" label="Field" max_length="80" name="field" type="string" use_dependent_field="true"/>
         <element label="PDF Creation Definition" max_length="32" name="pdf_creation_definition" reference="x_9104_pdf_manager_pdf_creation_definition" type="reference"/>
@@ -7,6 +7,13 @@
         <element label="PDF Field Type" max_length="100" name="pdf_field_type" type="string"/>
         <element label="Script" max_length="8000" name="script" type="script"/>
         <element label="Table" max_length="80" name="table" type="table_name"/>
+        <element choice="1" default="field" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Field" sequence="100" value="field"/>
+                <element inactive_on_update="false" label="Script" sequence="200" value="script"/>
+                <element inactive_on_update="false" label="Today's Date" sequence="300" value="today_date"/>
+            </choice>
+        </element>
         <element label="Use Script" max_length="40" name="use_script" type="boolean"/>
         <index name="index">
             <element name="pdf_field"/>
