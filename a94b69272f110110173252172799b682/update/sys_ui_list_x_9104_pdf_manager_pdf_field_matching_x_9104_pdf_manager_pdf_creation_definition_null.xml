@@ -3,107 +3,107 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>pdf_field_type</element>
-            <list_id display_value="x_9104_pdf_manager_pdf_field_matching" element="NULL" name="x_9104_pdf_manager_pdf_field_matching" parent="x_9104_pdf_manager_pdf_creation_definition" relationship="NULL" sys_domain="global" view="Default view">54fb75c92fe10d10173252172799b626</list_id>
+            <list_id display_value="x_9104_pdf_manager_pdf_field_matching" element="NULL" name="x_9104_pdf_manager_pdf_field_matching" parent="x_9104_pdf_manager_pdf_creation_definition" relationship="NULL" sys_domain="global" view="Default view">f39910022f650110173252172799b61c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>michael.slabodnick</sys_created_by>
-            <sys_created_on>2022-02-06 20:52:41</sys_created_on>
-            <sys_id>94fb75c92fe10d10173252172799b627</sys_id>
+            <sys_created_on>2022-02-09 16:17:02</sys_created_on>
+            <sys_id>f39910022f650110173252172799b61d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>michael.slabodnick</sys_updated_by>
-            <sys_updated_on>2022-02-06 20:52:41</sys_updated_on>
+            <sys_updated_on>2022-02-09 16:17:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>active</element>
-            <list_id display_value="x_9104_pdf_manager_pdf_field_matching" element="NULL" name="x_9104_pdf_manager_pdf_field_matching" parent="x_9104_pdf_manager_pdf_creation_definition" relationship="NULL" sys_domain="global" view="Default view">54fb75c92fe10d10173252172799b626</list_id>
+            <list_id display_value="x_9104_pdf_manager_pdf_field_matching" element="NULL" name="x_9104_pdf_manager_pdf_field_matching" parent="x_9104_pdf_manager_pdf_creation_definition" relationship="NULL" sys_domain="global" view="Default view">f39910022f650110173252172799b61c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>michael.slabodnick</sys_created_by>
-            <sys_created_on>2022-02-06 20:52:41</sys_created_on>
-            <sys_id>9cfb75c92fe10d10173252172799b627</sys_id>
+            <sys_created_on>2022-02-09 16:17:02</sys_created_on>
+            <sys_id>7b9910022f650110173252172799b61d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>michael.slabodnick</sys_updated_by>
-            <sys_updated_on>2022-02-06 20:52:41</sys_updated_on>
+            <sys_updated_on>2022-02-09 16:17:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>pdf_field.pdf_document</element>
-            <list_id display_value="x_9104_pdf_manager_pdf_field_matching" element="NULL" name="x_9104_pdf_manager_pdf_field_matching" parent="x_9104_pdf_manager_pdf_creation_definition" relationship="NULL" sys_domain="global" view="Default view">54fb75c92fe10d10173252172799b626</list_id>
+            <list_id display_value="x_9104_pdf_manager_pdf_field_matching" element="NULL" name="x_9104_pdf_manager_pdf_field_matching" parent="x_9104_pdf_manager_pdf_creation_definition" relationship="NULL" sys_domain="global" view="Default view">f39910022f650110173252172799b61c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>michael.slabodnick</sys_created_by>
-            <sys_created_on>2022-02-06 20:52:41</sys_created_on>
-            <sys_id>90fb75c92fe10d10173252172799b628</sys_id>
+            <sys_created_on>2022-02-09 16:17:02</sys_created_on>
+            <sys_id>fb9910022f650110173252172799b61d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>michael.slabodnick</sys_updated_by>
-            <sys_updated_on>2022-02-06 20:52:41</sys_updated_on>
+            <sys_updated_on>2022-02-09 16:17:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>pdf_field</element>
-            <list_id display_value="x_9104_pdf_manager_pdf_field_matching" element="NULL" name="x_9104_pdf_manager_pdf_field_matching" parent="x_9104_pdf_manager_pdf_creation_definition" relationship="NULL" sys_domain="global" view="Default view">54fb75c92fe10d10173252172799b626</list_id>
+            <list_id display_value="x_9104_pdf_manager_pdf_field_matching" element="NULL" name="x_9104_pdf_manager_pdf_field_matching" parent="x_9104_pdf_manager_pdf_creation_definition" relationship="NULL" sys_domain="global" view="Default view">f39910022f650110173252172799b61c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>michael.slabodnick</sys_created_by>
-            <sys_created_on>2022-02-06 20:52:41</sys_created_on>
-            <sys_id>94fb75c92fe10d10173252172799b628</sys_id>
+            <sys_created_on>2022-02-09 16:17:02</sys_created_on>
+            <sys_id>7f9910022f650110173252172799b61d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>michael.slabodnick</sys_updated_by>
-            <sys_updated_on>2022-02-06 20:52:41</sys_updated_on>
+            <sys_updated_on>2022-02-09 16:17:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>field</element>
-            <list_id display_value="x_9104_pdf_manager_pdf_field_matching" element="NULL" name="x_9104_pdf_manager_pdf_field_matching" parent="x_9104_pdf_manager_pdf_creation_definition" relationship="NULL" sys_domain="global" view="Default view">54fb75c92fe10d10173252172799b626</list_id>
+            <list_id display_value="x_9104_pdf_manager_pdf_field_matching" element="NULL" name="x_9104_pdf_manager_pdf_field_matching" parent="x_9104_pdf_manager_pdf_creation_definition" relationship="NULL" sys_domain="global" view="Default view">f39910022f650110173252172799b61c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>michael.slabodnick</sys_created_by>
-            <sys_created_on>2022-02-06 20:52:41</sys_created_on>
-            <sys_id>98fb75c92fe10d10173252172799b628</sys_id>
+            <sys_created_on>2022-02-09 16:17:02</sys_created_on>
+            <sys_id>ff9910022f650110173252172799b61d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>michael.slabodnick</sys_updated_by>
-            <sys_updated_on>2022-02-06 20:52:41</sys_updated_on>
+            <sys_updated_on>2022-02-09 16:17:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>use_script</element>
-            <list_id display_value="x_9104_pdf_manager_pdf_field_matching" element="NULL" name="x_9104_pdf_manager_pdf_field_matching" parent="x_9104_pdf_manager_pdf_creation_definition" relationship="NULL" sys_domain="global" view="Default view">54fb75c92fe10d10173252172799b626</list_id>
+            <element>type</element>
+            <list_id display_value="x_9104_pdf_manager_pdf_field_matching" element="NULL" name="x_9104_pdf_manager_pdf_field_matching" parent="x_9104_pdf_manager_pdf_creation_definition" relationship="NULL" sys_domain="global" view="Default view">f39910022f650110173252172799b61c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>michael.slabodnick</sys_created_by>
-            <sys_created_on>2022-02-06 20:52:41</sys_created_on>
-            <sys_id>9cfb75c92fe10d10173252172799b628</sys_id>
+            <sys_created_on>2022-02-09 16:17:02</sys_created_on>
+            <sys_id>739910022f650110173252172799b61e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>michael.slabodnick</sys_updated_by>
-            <sys_updated_on>2022-02-06 20:52:41</sys_updated_on>
+            <sys_updated_on>2022-02-09 16:17:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>script</element>
-            <list_id display_value="x_9104_pdf_manager_pdf_field_matching" element="NULL" name="x_9104_pdf_manager_pdf_field_matching" parent="x_9104_pdf_manager_pdf_creation_definition" relationship="NULL" sys_domain="global" view="Default view">54fb75c92fe10d10173252172799b626</list_id>
+            <list_id display_value="x_9104_pdf_manager_pdf_field_matching" element="NULL" name="x_9104_pdf_manager_pdf_field_matching" parent="x_9104_pdf_manager_pdf_creation_definition" relationship="NULL" sys_domain="global" view="Default view">f39910022f650110173252172799b61c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>michael.slabodnick</sys_created_by>
-            <sys_created_on>2022-02-06 20:52:41</sys_created_on>
-            <sys_id>90fb75c92fe10d10173252172799b629</sys_id>
+            <sys_created_on>2022-02-09 16:17:02</sys_created_on>
+            <sys_id>f39910022f650110173252172799b61e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>michael.slabodnick</sys_updated_by>
-            <sys_updated_on>2022-02-06 20:52:41</sys_updated_on>
+            <sys_updated_on>2022-02-09 16:17:02</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -117,10 +117,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>michael.slabodnick</sys_created_by>
-            <sys_created_on>2022-02-06 20:52:41</sys_created_on>
+            <sys_created_on>2022-02-09 16:17:02</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>54fb75c92fe10d10173252172799b626</sys_id>
+            <sys_id>f39910022f650110173252172799b61c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_9104_pdf_manager_pdf_field_matching</sys_name>
             <sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package>
@@ -128,7 +128,7 @@
             <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
             <sys_update_name>sys_ui_list_x_9104_pdf_manager_pdf_field_matching_x_9104_pdf_manager_pdf_creation_definition_null</sys_update_name>
             <sys_updated_by>michael.slabodnick</sys_updated_by>
-            <sys_updated_on>2022-02-06 20:52:41</sys_updated_on>
+            <sys_updated_on>2022-02-09 16:17:02</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
