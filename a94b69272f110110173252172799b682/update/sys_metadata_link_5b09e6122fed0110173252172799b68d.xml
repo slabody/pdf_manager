@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>b8b19a9597694950a518d104a253af3d</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_9104_pdf_manager_pdf_field_matching"&gt;
+    &lt;x_9104_pdf_manager_pdf_field_matching action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;field/&gt;
+        &lt;pdf_creation_definition display_value="SAAR DD2875 Form"&gt;3aee4f509721c150a518d104a253af82&lt;/pdf_creation_definition&gt;
+        &lt;pdf_field display_value="form1[0].Page1[0]._19_date[0]"&gt;40109ad197694950a518d104a253af4a&lt;/pdf_field&gt;
+        &lt;pdf_field_type&gt;text&lt;/pdf_field_type&gt;
+        &lt;script&gt;&lt;![CDATA[var gcdt = new GlideCalendarDateTime(new GlideDateTime());
+answer = gcdt;]]&gt;&lt;/script&gt;
+        &lt;sys_created_by&gt;michael.slabodnick&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-02-07 17:06:14&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;b8b19a9597694950a518d104a253af3d&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;michael.slabodnick&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-02-09 16:37:39&lt;/sys_updated_on&gt;
+        &lt;table&gt;x_snc_mbs_saardemo_saar&lt;/table&gt;
+        &lt;type&gt;today_date&lt;/type&gt;
+        &lt;use_script&gt;true&lt;/use_script&gt;
+    &lt;/x_9104_pdf_manager_pdf_field_matching&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-10 21:22:11</sys_created_on>
+        <sys_id>5b09e6122fed0110173252172799b68d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>form1[0].Page1[0]._19_date[0]</sys_name>
+        <sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name>sys_metadata_link_5b09e6122fed0110173252172799b68d</sys_update_name>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-10 21:22:11</sys_updated_on>
+        <tablename>x_9104_pdf_manager_pdf_field_matching</tablename>
+    </sys_metadata_link>
+</record_update>
