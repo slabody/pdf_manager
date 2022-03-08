@@ -8,13 +8,13 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-rome-06-23-2021__patch5-12-15-2021_01-04-2022_2221.zip</compiler_build>
+        <compiler_build>glide-sandiego-12-22-2021__patch0-hotfix1-02-01-2022_02-01-2022_2323.zip</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
         <ih_action>false</ih_action>
         <internal_name>pdf_manager_create_pdf</internal_name>
-        <label_cache>[{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"","base_type":"file_attachment","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"File Attachment","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"file_attachment","uiUniqueId":"f6dda0f7-a298-462a-b1b9-77ad1e536927"}},{"name":"{{action.table}}","label":"action➛Table","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"d857461d-6601-4965-92fc-e41dc267203a"}},{"name":"{{action.target_sys_id}}","label":"action➛Target Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"609760af-3519-41dd-a2e7-89fd0d317e59"}},{"name":"{{action.source_file_attachment}}","label":"action➛Source File Attachment","type":"action","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Sys ID (GUID)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"GUID","uiUniqueId":"a53102e0-bfa0-471b-a7fc-0a1322d6a616"}},{"name":"{{action.output_pdf_name}}","label":"action➛Output PDF Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"0c484689-5af6-4fc6-8a39-772860f15e85"}},{"name":"{{action.pdf_creation_definition}}","label":"action➛PDF Creation Definition","type":"action","ref":"","reference_display":"PDF Creation Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"reference","uiUniqueId":"c8dddf74-373e-418c-a7fa-e438756d6ca9"}},{"name":"{{action.pdf_creation_definition.sys_id}}","label":"action➛PDF Creation Definition➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_9104_pdf_manager_pdf_creation_definition","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.pdf_document_sys_id}}","label":"action➛PDF Document Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.pdf_document}}","label":"action➛PDF Document","type":"action","ref":"","reference_display":"PDF Document","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"reference","uiUniqueId":"c3b6c77b-3b54-4c05-ad40-d7a256353ebf"}},{"name":"{{action.attachment_sys_id}}","label":"action➛Attachment Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"0bcfb093-ce79-4d39-9e59-c2944ea2d4db"}},{"name":"{{action.pdf_document.attachment_sys_id}}","label":"action➛PDF Document➛Attachment Sys ID","type":"action","ref":"","reference_display":"Attachment Sys ID","base_type":"string","parent_table_name":"x_9104_pdf_manager_pdf_document","column_name":"attachment_sys_id","choices":null,"attributes":{}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].variable}}","label":"step➛Get Fields➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields}}","label":"step➛Get Fields➛Fields","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].status}}","label":"step➛Get Fields➛Status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_array}}","label":"step➛Script step➛output_array","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","child_name":"output_array_child0","uiUniqueId":"727555a7-d54d-42a6-98c5-73641a9c2ae1","uiTypeLabel":"Array.Object","co_type_name":"FDbd978a18c9258510e28ab7b6d150b698","child_label":"output_array_child0","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"array.object","child_type":"object","child_uiUniqueId":"07a6d9b0-f5e4-468c-bac4-de473c283a03"}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_array.output_array_data}}","label":"step➛Script step➛output_array➛output_array_data","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_json}}","label":"step➛Script step➛output_json","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_sys_id}}","label":"step➛Script step➛New Attachment Sys ID","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_file_sys_id}}","label":"step➛Script step➛output_file_sys_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"04bc15a1-5ef5-4bc7-93ac-f90fcfedeac1"}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].status}}","label":"step➛Script step➛Status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].message}}","label":"step➛Script step➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <label_cache>[{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"","base_type":"file_attachment","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"File Attachment","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"file_attachment","uiUniqueId":"f6dda0f7-a298-462a-b1b9-77ad1e536927"}},{"name":"{{action.table}}","label":"action➛Table","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"d857461d-6601-4965-92fc-e41dc267203a"}},{"name":"{{action.target_sys_id}}","label":"action➛Target Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"609760af-3519-41dd-a2e7-89fd0d317e59"}},{"name":"{{action.source_file_attachment}}","label":"action➛Source File Attachment","type":"action","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Sys ID (GUID)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"GUID","uiUniqueId":"a53102e0-bfa0-471b-a7fc-0a1322d6a616"}},{"name":"{{action.output_pdf_name}}","label":"action➛Output PDF Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"0c484689-5af6-4fc6-8a39-772860f15e85"}},{"name":"{{action.pdf_creation_definition}}","label":"action➛PDF Creation Definition","type":"action","ref":"","reference_display":"PDF Creation Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"reference","uiUniqueId":"c8dddf74-373e-418c-a7fa-e438756d6ca9"}},{"name":"{{action.pdf_creation_definition.sys_id}}","label":"action➛PDF Creation Definition➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_9104_pdf_manager_pdf_creation_definition","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.pdf_document_sys_id}}","label":"action➛PDF Document Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.pdf_document}}","label":"action➛PDF Document","type":"action","ref":"","reference_display":"PDF Document","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"reference","uiUniqueId":"c3b6c77b-3b54-4c05-ad40-d7a256353ebf"}},{"name":"{{action.attachment_sys_id}}","label":"action➛Attachment Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"0bcfb093-ce79-4d39-9e59-c2944ea2d4db"}},{"name":"{{action.pdf_document.attachment_sys_id}}","label":"action➛PDF Document➛Attachment Sys ID","type":"action","ref":"","reference_display":"Attachment Sys ID","base_type":"string","parent_table_name":"x_9104_pdf_manager_pdf_document","column_name":"attachment_sys_id","choices":null,"attributes":{}},{"name":"{{action.flatten}}","label":"action➛Flatten","type":"action","ref":"","reference_display":"","base_type":"choice","parent_table_name":"","column_name":"","choices":[{"label":"Do Not Flatten","value":"donot_flatten","order":0.0},{"label":"Flatten Filled-In Fields","value":"partially_flatten","order":1.0},{"label":"Fully Flatten","value":"fully_flatten","order":2.0}],"attributes":{"sourceId":"","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"choice","uiUniqueId":"8a4957ce-1009-4157-bda3-6f38858adb8d"}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].variable}}","label":"step➛Get Fields➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields}}","label":"step➛Get Fields➛Fields","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].status}}","label":"step➛Get Fields➛Status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_array}}","label":"step➛Script step➛output_array","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","child_name":"output_array_child0","uiUniqueId":"727555a7-d54d-42a6-98c5-73641a9c2ae1","uiTypeLabel":"Array.Object","co_type_name":"FDbd978a18c9258510e28ab7b6d150b698","child_label":"output_array_child0","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"array.object","child_type":"object","child_uiUniqueId":"07a6d9b0-f5e4-468c-bac4-de473c283a03"}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_array.output_array_data}}","label":"step➛Script step➛output_array➛output_array_data","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_json}}","label":"step➛Script step➛output_json","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_sys_id}}","label":"step➛Script step➛New Attachment Sys ID","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_file_sys_id}}","label":"step➛Script step➛output_file_sys_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"04bc15a1-5ef5-4bc7-93ac-f90fcfedeac1"}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].status}}","label":"step➛Script step➛Status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].message}}","label":"step➛Script step➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
         <master_snapshot>80db83d82f6d8510173252172799b60f</master_snapshot>
         <name>PDF Manager Create PDF</name>
         <natlang/>
@@ -25,7 +25,7 @@
         <sys_created_on>2022-02-03 21:54:16</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>014daa002f690510173252172799b677</sys_id>
-        <sys_mod_count>119</sys_mod_count>
+        <sys_mod_count>127</sys_mod_count>
         <sys_name>PDF Manager Create PDF</sys_name>
         <sys_overrides/>
         <sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_014daa002f690510173252172799b677</sys_update_name>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-09 16:29:26</sys_updated_on>
+        <sys_updated_on>2022-03-08 21:59:25</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -87,14 +87,14 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-03 22:02:43</sys_created_on>
         <sys_id>bc3fea4c2f690510173252172799b6bc</sys_id>
-        <sys_mod_count>66</sys_mod_count>
+        <sys_mod_count>68</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-09 16:28:20</sys_updated_on>
+        <sys_updated_on>2022-03-08 21:56:28</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bc3fea4c2f690510173252172799b6bc"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -119,9 +119,9 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-03 22:02:44</sys_created_on>
         <sys_id>c13fea4c2f690510173252172799b6dd</sys_id>
-        <sys_mod_count>59</sys_mod_count>
+        <sys_mod_count>61</sys_mod_count>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-09 16:28:20</sys_updated_on>
+        <sys_updated_on>2022-03-08 21:56:28</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   
   // Find associated field definitions
@@ -182,8 +182,10 @@
   }
   
   var pdf = new sn_pdfgeneratorutils.PDFGenerationAPI;
-  
-  var outputObj = pdf.fillDocumentFields(dataObj, inputs.attachment_sys_id, inputs.target_table, inputs.target_sys_id, inputs.output_pdf_name);
+   var flattenValue = {
+    				"FlattenType": inputs.flatten
+  };
+  var outputObj = pdf.fillDocumentFieldsAndFlatten(dataObj, inputs.attachment_sys_id, inputs.target_table, inputs.target_sys_id, inputs.output_pdf_name,flattenValue);
   outputs.status = outputObj.status;
   outputs.output_sys_id = outputObj.attachment_id;
   outputs.message = outputObj.message;
@@ -216,6 +218,18 @@
         <sys_updated_on>2022-02-07 17:07:50</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_bc3fea4c2f690510173252172799b6bc</table>
         <value>{{action.pdf_document.attachment_sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>flatten</field>
+        <id>bc3fea4c2f690510173252172799b6bc</id>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-03-08 21:56:28</sys_created_on>
+        <sys_id>073aa43e2f0e0110173252172799b6ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-03-08 21:56:28</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_bc3fea4c2f690510173252172799b6bc</table>
+        <value>{{action.flatten}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>output_pdf_name</field>
@@ -315,7 +329,7 @@
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_bc3fea4c2f690510173252172799b6bc^id=bc3fea4c2f690510173252172799b6bc"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=bc3fea4c2f690510173252172799b6bc"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=bc3fea4c2f690510173252172799b6bc^sys_idNOT IN244f3edc2fe98510173252172799b62c,5b9a3a542fe98510173252172799b6e3,994fae4c2f690510173252172799b60f,ac4f3edc2fe98510173252172799b638,bc3fea4c2f690510173252172799b6c4,d79a3a542fe98510173252172799b6e9"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=bc3fea4c2f690510173252172799b6bc^sys_idNOT IN244f3edc2fe98510173252172799b62c,5b9a3a542fe98510173252172799b6e3,994fae4c2f690510173252172799b60f,ac4f3edc2fe98510173252172799b638,bc3fea4c2f690510173252172799b6c4,c73aa43e2f0e0110173252172799b6e0,d79a3a542fe98510173252172799b6e9"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -725,6 +739,87 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>1</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>flatten</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">bc3fea4c2f690510173252172799b6bc</model>
+        <model_id>bc3fea4c2f690510173252172799b6bc</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_bc3fea4c2f690510173252172799b6bc</name>
+        <next_element/>
+        <order>600</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-03-08 21:56:28</sys_created_on>
+        <sys_id>c73aa43e2f0e0110173252172799b6e0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-03-08 21:59:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
         <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
@@ -1046,6 +1141,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bc3fea4c2f690510173252172799b6bc"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_bc3fea4c2f690510173252172799b6bc^sys_idNOT IN30ce7a9c2fe98510173252172799b644,77be02182f658510173252172799b6e6,f0ce7a9c2fe98510173252172799b605"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>message</element>
@@ -1116,7 +1212,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_input action="delete_multiple" query="model=014daa002f690510173252172799b677^sys_idNOT IN039a3a542fe98510173252172799b673,1c4ffadc2fe98510173252172799b6cc,637d62882f690510173252172799b6dd,eb7d62882f690510173252172799b6ea,f68fe68c2f690510173252172799b621"/>
+    <sys_hub_action_input action="delete_multiple" query="model=014daa002f690510173252172799b677^sys_idNOT IN039a3a542fe98510173252172799b673,1c4ffadc2fe98510173252172799b6cc,637d62882f690510173252172799b6dd,ca0aec7a2f0e0110173252172799b6cd,eb7d62882f690510173252172799b6ea,f68fe68c2f690510173252172799b621"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1198,6 +1294,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=039a3a542fe98510173252172799b673"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1279,6 +1376,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1c4ffadc2fe98510173252172799b6cc"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1360,6 +1458,89 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=637d62882f690510173252172799b6dd"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=8a4957ce-1009-4157-bda3-6f38858adb8d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>donot_flatten</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>flatten</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Flatten</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="PDF Manager Create PDF">014daa002f690510173252172799b677</model>
+        <model_id>014daa002f690510173252172799b677</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_014daa002f690510173252172799b677</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-03-08 21:55:34</sys_created_on>
+        <sys_id>ca0aec7a2f0e0110173252172799b6cd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-03-08 21:59:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ca0aec7a2f0e0110173252172799b6cd"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1441,6 +1622,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=eb7d62882f690510173252172799b6ea"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1522,6 +1704,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f68fe68c2f690510173252172799b621"/>
     <sys_hub_action_output action="delete_multiple" query="model=014daa002f690510173252172799b677^sys_idNOT INaaed22c82f690510173252172799b69c,eaed22c82f690510173252172799b694"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1606,6 +1789,8 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=aaed22c82f690510173252172799b69c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=aaed22c82f690510173252172799b69c"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1689,6 +1874,9 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=eaed22c82f690510173252172799b694"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=eaed22c82f690510173252172799b694"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=014daa002f690510173252172799b677"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=014daa002f690510173252172799b677^sys_idNOT INef7d62882f690510173252172799b6f4"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
         <action_type_id display_value="PDF Manager Create PDF">014daa002f690510173252172799b677</action_type_id>
@@ -1699,7 +1887,31 @@
         <sys_updated_by>michael.slabodnick</sys_updated_by>
         <sys_updated_on>2022-02-03 21:55:15</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_014daa002f690510173252172799b677^sys_idNOT IN677d62882f690510173252172799b6f0,c38fe68c2f690510173252172799b6ef,c39a3a542fe98510173252172799b6bc,d44ffadc2fe98510173252172799b6df,eb7d62882f690510173252172799b6e2"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=ef7d62882f690510173252172799b6f4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_014daa002f690510173252172799b677^sys_idNOT IN460a203e2f0e0110173252172799b618,677d62882f690510173252172799b6f0,c38fe68c2f690510173252172799b6ef,c39a3a542fe98510173252172799b6bc,d44ffadc2fe98510173252172799b6df,eb7d62882f690510173252172799b6e2"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>flatten</element>
+        <help/>
+        <hint/>
+        <label>Flatten</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_014daa002f690510173252172799b677</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-03-08 21:55:35</sys_created_on>
+        <sys_id>460a203e2f0e0110173252172799b618</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-03-08 21:55:35</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>output_pdf_name</element>
         <help/>
@@ -1815,6 +2027,69 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_014daa002f690510173252172799b677^sys_idNOT IN460a203e2f0e0110173252172799b613,4e0a203e2f0e0110173252172799b613,060a203e2f0e0110173252172799b614"/>
+    <sys_choice field="flatten" table="var__m_sys_hub_action_input_014daa002f690510173252172799b677">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>flatten</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Do Not Flatten</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_014daa002f690510173252172799b677</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>michael.slabodnick</sys_created_by>
+            <sys_created_on>2022-03-08 21:55:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>460a203e2f0e0110173252172799b613</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>michael.slabodnick</sys_updated_by>
+            <sys_updated_on>2022-03-08 21:56:27</sys_updated_on>
+            <value>donot_flatten</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>flatten</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Flatten Filled-In Fields</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_014daa002f690510173252172799b677</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>michael.slabodnick</sys_created_by>
+            <sys_created_on>2022-03-08 21:55:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4e0a203e2f0e0110173252172799b613</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>michael.slabodnick</sys_updated_by>
+            <sys_updated_on>2022-03-08 21:56:27</sys_updated_on>
+            <value>partially_flatten</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>flatten</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fully Flatten</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_014daa002f690510173252172799b677</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>michael.slabodnick</sys_created_by>
+            <sys_created_on>2022-03-08 21:55:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>060a203e2f0e0110173252172799b614</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>michael.slabodnick</sys_updated_by>
+            <sys_updated_on>2022-03-08 21:56:27</sys_updated_on>
+            <value>fully_flatten</value>
+        </sys_choice>
+    </sys_choice>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_014daa002f690510173252172799b677^sys_idNOT INe6ed22c82f690510173252172799b69b,eeed22c82f690510173252172799b6a6"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
@@ -1862,17 +2137,18 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_014daa002f690510173252172799b677"/>
     <sys_hub_action_plan action="delete_multiple" query="action_id=014daa002f690510173252172799b677^sys_idNOT INe1dbc3d82f6d8510173252172799b6d9"/>
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="PDF Manager Create PDF">014daa002f690510173252172799b677</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"e1dbc3d82f6d8510173252172799b6d9","name":"plan","plan_signature":null}}</plan>
-        <snapshot>9d7c1c862f650110173252172799b6b7</snapshot>
+        <snapshot>82ea24be2f0e0110173252172799b675</snapshot>
         <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-04 18:46:19</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>e1dbc3d82f6d8510173252172799b6d9</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1880,7 +2156,7 @@
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-09 16:29:29</sys_updated_on>
+        <sys_updated_on>2022-03-08 21:59:31</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1894,7 +2170,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>pdf_manager_create_pdf</internal_name>
-        <label_cache>[{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"","base_type":"file_attachment","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"File Attachment","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"file_attachment","uiUniqueId":"f6dda0f7-a298-462a-b1b9-77ad1e536927"}},{"name":"{{action.table}}","label":"action➛Table","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"d857461d-6601-4965-92fc-e41dc267203a"}},{"name":"{{action.target_sys_id}}","label":"action➛Target Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"609760af-3519-41dd-a2e7-89fd0d317e59"}},{"name":"{{action.source_file_attachment}}","label":"action➛Source File Attachment","type":"action","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Sys ID (GUID)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"GUID","uiUniqueId":"a53102e0-bfa0-471b-a7fc-0a1322d6a616"}},{"name":"{{action.output_pdf_name}}","label":"action➛Output PDF Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"0c484689-5af6-4fc6-8a39-772860f15e85"}},{"name":"{{action.pdf_creation_definition}}","label":"action➛PDF Creation Definition","type":"action","ref":"","reference_display":"PDF Creation Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"reference","uiUniqueId":"c8dddf74-373e-418c-a7fa-e438756d6ca9"}},{"name":"{{action.pdf_creation_definition.sys_id}}","label":"action➛PDF Creation Definition➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_9104_pdf_manager_pdf_creation_definition","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.pdf_document_sys_id}}","label":"action➛PDF Document Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.pdf_document}}","label":"action➛PDF Document","type":"action","ref":"","reference_display":"PDF Document","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"reference","uiUniqueId":"c3b6c77b-3b54-4c05-ad40-d7a256353ebf"}},{"name":"{{action.attachment_sys_id}}","label":"action➛Attachment Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"0bcfb093-ce79-4d39-9e59-c2944ea2d4db"}},{"name":"{{action.pdf_document.attachment_sys_id}}","label":"action➛PDF Document➛Attachment Sys ID","type":"action","ref":"","reference_display":"Attachment Sys ID","base_type":"string","parent_table_name":"x_9104_pdf_manager_pdf_document","column_name":"attachment_sys_id","choices":null,"attributes":{}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].variable}}","label":"step➛Get Fields➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields}}","label":"step➛Get Fields➛Fields","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].status}}","label":"step➛Get Fields➛Status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_array}}","label":"step➛Script step➛output_array","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","child_name":"output_array_child0","uiUniqueId":"727555a7-d54d-42a6-98c5-73641a9c2ae1","uiTypeLabel":"Array.Object","co_type_name":"FDbd978a18c9258510e28ab7b6d150b698","child_label":"output_array_child0","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"array.object","child_type":"object","child_uiUniqueId":"07a6d9b0-f5e4-468c-bac4-de473c283a03"}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_array.output_array_data}}","label":"step➛Script step➛output_array➛output_array_data","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_json}}","label":"step➛Script step➛output_json","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_sys_id}}","label":"step➛Script step➛New Attachment Sys ID","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_file_sys_id}}","label":"step➛Script step➛output_file_sys_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"04bc15a1-5ef5-4bc7-93ac-f90fcfedeac1"}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].status}}","label":"step➛Script step➛Status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].message}}","label":"step➛Script step➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <label_cache>[{"name":"{{action.attachment}}","label":"action➛Attachment","type":"action","ref":"","reference_display":"","base_type":"file_attachment","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"File Attachment","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"file_attachment","uiUniqueId":"f6dda0f7-a298-462a-b1b9-77ad1e536927"}},{"name":"{{action.table}}","label":"action➛Table","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"d857461d-6601-4965-92fc-e41dc267203a"}},{"name":"{{action.target_sys_id}}","label":"action➛Target Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"609760af-3519-41dd-a2e7-89fd0d317e59"}},{"name":"{{action.source_file_attachment}}","label":"action➛Source File Attachment","type":"action","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"Sys ID (GUID)","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"GUID","uiUniqueId":"a53102e0-bfa0-471b-a7fc-0a1322d6a616"}},{"name":"{{action.output_pdf_name}}","label":"action➛Output PDF Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"0c484689-5af6-4fc6-8a39-772860f15e85"}},{"name":"{{action.pdf_creation_definition}}","label":"action➛PDF Creation Definition","type":"action","ref":"","reference_display":"PDF Creation Definition","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"reference","uiUniqueId":"c8dddf74-373e-418c-a7fa-e438756d6ca9"}},{"name":"{{action.pdf_creation_definition.sys_id}}","label":"action➛PDF Creation Definition➛Sys ID","type":"action","ref":"","reference_display":"Sys ID","base_type":"GUID","parent_table_name":"x_9104_pdf_manager_pdf_creation_definition","column_name":"sys_id","choices":null,"attributes":{}},{"name":"{{action.pdf_document_sys_id}}","label":"action➛PDF Document Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.pdf_document}}","label":"action➛PDF Document","type":"action","ref":"","reference_display":"PDF Document","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"reference","uiUniqueId":"c3b6c77b-3b54-4c05-ad40-d7a256353ebf"}},{"name":"{{action.attachment_sys_id}}","label":"action➛Attachment Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"string","uiUniqueId":"0bcfb093-ce79-4d39-9e59-c2944ea2d4db"}},{"name":"{{action.pdf_document.attachment_sys_id}}","label":"action➛PDF Document➛Attachment Sys ID","type":"action","ref":"","reference_display":"Attachment Sys ID","base_type":"string","parent_table_name":"x_9104_pdf_manager_pdf_document","column_name":"attachment_sys_id","choices":null,"attributes":{}},{"name":"{{action.flatten}}","label":"action➛Flatten","type":"action","ref":"","reference_display":"","base_type":"choice","parent_table_name":"","column_name":"","choices":[{"label":"Do Not Flatten","value":"donot_flatten","order":0.0},{"label":"Flatten Filled-In Fields","value":"partially_flatten","order":1.0},{"label":"Fully Flatten","value":"fully_flatten","order":2.0}],"attributes":{"sourceId":"","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"choice","uiUniqueId":"8a4957ce-1009-4157-bda3-6f38858adb8d"}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].variable}}","label":"step➛Get Fields➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].fields}}","label":"step➛Get Fields➛Fields","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[eaa784e9-8de8-4b40-b7db-0bae786e0ebe].status}}","label":"step➛Get Fields➛Status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_array}}","label":"step➛Script step➛output_array","type":"step","ref":"","reference_display":"","base_type":"array.string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","child_name":"output_array_child0","uiUniqueId":"727555a7-d54d-42a6-98c5-73641a9c2ae1","uiTypeLabel":"Array.Object","co_type_name":"FDbd978a18c9258510e28ab7b6d150b698","child_label":"output_array_child0","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"array.object","child_type":"object","child_uiUniqueId":"07a6d9b0-f5e4-468c-bac4-de473c283a03"}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_array.output_array_data}}","label":"step➛Script step➛output_array➛output_array_data","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_json}}","label":"step➛Script step➛output_json","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_sys_id}}","label":"step➛Script step➛New Attachment Sys ID","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].output_file_sys_id}}","label":"step➛Script step➛output_file_sys_id","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"04bc15a1-5ef5-4bc7-93ac-f90fcfedeac1"}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].status}}","label":"step➛Script step➛Status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[76660675-ccc0-4d27-a0ac-6c70d397e43c].message}}","label":"step➛Script step➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
         <master>true</master>
         <name>PDF Manager Create PDF</name>
         <natlang/>
@@ -1905,7 +2181,7 @@
         <sys_created_on>2022-02-04 18:46:13</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>80db83d82f6d8510173252172799b60f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1913,7 +2189,7 @@
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-07 17:08:00</sys_updated_on>
+        <sys_updated_on>2022-03-08 21:59:20</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1967,14 +2243,14 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-04 18:46:14</sys_created_on>
         <sys_id>2cdb83d82f6d8510173252172799b685</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-09 16:29:26</sys_updated_on>
+        <sys_updated_on>2022-03-08 21:59:23</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2cdb83d82f6d8510173252172799b685"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1985,9 +2261,9 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-04 18:46:16</sys_created_on>
         <sys_id>70db83d82f6d8510173252172799b6d4</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-02-09 16:29:26</sys_updated_on>
+        <sys_updated_on>2022-03-08 21:59:23</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   
   // Find associated field definitions
@@ -2048,8 +2324,10 @@
   }
   
   var pdf = new sn_pdfgeneratorutils.PDFGenerationAPI;
-  
-  var outputObj = pdf.fillDocumentFields(dataObj, inputs.attachment_sys_id, inputs.target_table, inputs.target_sys_id, inputs.output_pdf_name);
+   var flattenValue = {
+    				"FlattenType": inputs.flatten
+  };
+  var outputObj = pdf.fillDocumentFieldsAndFlatten(dataObj, inputs.attachment_sys_id, inputs.target_table, inputs.target_sys_id, inputs.output_pdf_name,flattenValue);
   outputs.status = outputObj.status;
   outputs.output_sys_id = outputObj.attachment_id;
   outputs.message = outputObj.message;
@@ -2096,6 +2374,18 @@
         <sys_updated_on>2022-02-07 17:08:03</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_2cdb83d82f6d8510173252172799b685</table>
         <value>{{action.pdf_document.attachment_sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>flatten</field>
+        <id>2cdb83d82f6d8510173252172799b685</id>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-03-08 21:59:23</sys_created_on>
+        <sys_id>3dea24be2f0e0110173252172799b639</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-03-08 21:59:23</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_2cdb83d82f6d8510173252172799b685</table>
+        <value>{{action.flatten}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>output_pdf_name</field>
@@ -2171,7 +2461,7 @@
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_2cdb83d82f6d8510173252172799b685^id=2cdb83d82f6d8510173252172799b685"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=2cdb83d82f6d8510173252172799b685"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=2cdb83d82f6d8510173252172799b685^sys_idNOT IN20db83d82f6d8510173252172799b689,2cdb83d82f6d8510173252172799b6b5,68db83d82f6d8510173252172799b69c,6cdb83d82f6d8510173252172799b68f,a4db83d82f6d8510173252172799b6af,e0db83d82f6d8510173252172799b696"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=2cdb83d82f6d8510173252172799b685^sys_idNOT IN20db83d82f6d8510173252172799b689,2cdb83d82f6d8510173252172799b6b5,68db83d82f6d8510173252172799b69c,6cdb83d82f6d8510173252172799b68f,a4db83d82f6d8510173252172799b6af,e0db83d82f6d8510173252172799b696,e1ea24be2f0e0110173252172799b612"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -2658,6 +2948,87 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>1</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>flatten</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>flatten</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">2cdb83d82f6d8510173252172799b685</model>
+        <model_id>2cdb83d82f6d8510173252172799b685</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_2cdb83d82f6d8510173252172799b685</name>
+        <next_element/>
+        <order>600</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-03-08 21:59:23</sys_created_on>
+        <sys_id>e1ea24be2f0e0110173252172799b612</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-03-08 21:59:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
     <sys_hub_step_ext_output action="delete_multiple" query="model=2cdb83d82f6d8510173252172799b685^sys_idNOT INa8db83d82f6d8510173252172799b6bc,bcdb83d82f6d8510173252172799b6c9,f4db83d82f6d8510173252172799b6c3"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -2902,6 +3273,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2cdb83d82f6d8510173252172799b685"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_2cdb83d82f6d8510173252172799b685^sys_idNOT IN38db83d82f6d8510173252172799b6c8,70db83d82f6d8510173252172799b6c2,fcdb83d82f6d8510173252172799b6ce"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>output_sys_id</element>
@@ -2972,7 +3344,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_action_input action="delete_multiple" query="model=80db83d82f6d8510173252172799b60f^sys_idNOT IN08db83d82f6d8510173252172799b612,14db83d82f6d8510173252172799b62a,90db83d82f6d8510173252172799b652,98db83d82f6d8510173252172799b61e,98db83d82f6d8510173252172799b64a"/>
+    <sys_hub_action_input action="delete_multiple" query="model=80db83d82f6d8510173252172799b60f^sys_idNOT IN08db83d82f6d8510173252172799b612,14db83d82f6d8510173252172799b62a,51eae0be2f0e0110173252172799b6e2,90db83d82f6d8510173252172799b652,98db83d82f6d8510173252172799b61e,98db83d82f6d8510173252172799b64a"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3054,6 +3426,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=08db83d82f6d8510173252172799b612"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3135,6 +3508,89 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=14db83d82f6d8510173252172799b62a"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=8a4957ce-1009-4157-bda3-6f38858adb8d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>donot_flatten</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>flatten</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Flatten</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="PDF Manager Create PDF">80db83d82f6d8510173252172799b60f</model>
+        <model_id>80db83d82f6d8510173252172799b60f</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_80db83d82f6d8510173252172799b60f</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-03-08 21:59:22</sys_created_on>
+        <sys_id>51eae0be2f0e0110173252172799b6e2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-03-08 21:59:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=51eae0be2f0e0110173252172799b6e2"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3216,6 +3672,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=90db83d82f6d8510173252172799b652"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3297,6 +3754,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=98db83d82f6d8510173252172799b61e"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3378,6 +3836,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=98db83d82f6d8510173252172799b64a"/>
     <sys_hub_action_output action="delete_multiple" query="model=80db83d82f6d8510173252172799b60f^sys_idNOT INb8dbc3d82f6d8510173252172799b614,fcdbc3d82f6d8510173252172799b60c"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -3462,6 +3921,8 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b8dbc3d82f6d8510173252172799b614"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b8dbc3d82f6d8510173252172799b614"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3545,6 +4006,9 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fcdbc3d82f6d8510173252172799b60c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fcdbc3d82f6d8510173252172799b60c"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=80db83d82f6d8510173252172799b60f"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=80db83d82f6d8510173252172799b60f^sys_idNOT INc1dbc3d82f6d8510173252172799b624"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
         <action_type_id display_value="PDF Manager Create PDF">80db83d82f6d8510173252172799b60f</action_type_id>
@@ -3555,7 +4019,8 @@
         <sys_updated_by>michael.slabodnick</sys_updated_by>
         <sys_updated_on>2022-02-04 18:46:16</sys_updated_on>
     </sys_hub_action_status_metadata>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_80db83d82f6d8510173252172799b60f^sys_idNOT IN14db83d82f6d8510173252172799b61d,14db83d82f6d8510173252172799b649,1cdb83d82f6d8510173252172799b650,94db83d82f6d8510173252172799b65c,9cdb83d82f6d8510173252172799b628"/>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=c1dbc3d82f6d8510173252172799b624"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_80db83d82f6d8510173252172799b60f^sys_idNOT IN14db83d82f6d8510173252172799b61d,14db83d82f6d8510173252172799b649,1cdb83d82f6d8510173252172799b650,29eae0be2f0e0110173252172799b6e9,94db83d82f6d8510173252172799b65c,9cdb83d82f6d8510173252172799b628"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>table</element>
         <help/>
@@ -3626,6 +4091,29 @@
         <url_target/>
     </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
+        <element>flatten</element>
+        <help/>
+        <hint/>
+        <label>Flatten</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_80db83d82f6d8510173252172799b60f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-03-08 21:59:22</sys_created_on>
+        <sys_id>29eae0be2f0e0110173252172799b6e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-03-08 21:59:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
         <element>target_sys_id</element>
         <help/>
         <hint/>
@@ -3671,6 +4159,69 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_80db83d82f6d8510173252172799b60f^sys_idNOT INedeae0be2f0e0110173252172799b6e4,a5eae0be2f0e0110173252172799b6e5,6deae0be2f0e0110173252172799b6e5"/>
+    <sys_choice field="flatten" table="var__m_sys_hub_action_input_80db83d82f6d8510173252172799b60f">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>flatten</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Do Not Flatten</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_80db83d82f6d8510173252172799b60f</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>michael.slabodnick</sys_created_by>
+            <sys_created_on>2022-03-08 21:59:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>edeae0be2f0e0110173252172799b6e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.slabodnick</sys_updated_by>
+            <sys_updated_on>2022-03-08 21:59:22</sys_updated_on>
+            <value>donot_flatten</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>flatten</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Flatten Filled-In Fields</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_80db83d82f6d8510173252172799b60f</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>michael.slabodnick</sys_created_by>
+            <sys_created_on>2022-03-08 21:59:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a5eae0be2f0e0110173252172799b6e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.slabodnick</sys_updated_by>
+            <sys_updated_on>2022-03-08 21:59:22</sys_updated_on>
+            <value>partially_flatten</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>flatten</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fully Flatten</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_80db83d82f6d8510173252172799b60f</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>michael.slabodnick</sys_created_by>
+            <sys_created_on>2022-03-08 21:59:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6deae0be2f0e0110173252172799b6e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>michael.slabodnick</sys_updated_by>
+            <sys_updated_on>2022-03-08 21:59:22</sys_updated_on>
+            <value>fully_flatten</value>
+        </sys_choice>
+    </sys_choice>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_80db83d82f6d8510173252172799b60f^sys_idNOT IN30dbc3d82f6d8510173252172799b61f,34dbc3d82f6d8510173252172799b613"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__dont_treat_as_error__</element>
@@ -3718,6 +4269,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_80db83d82f6d8510173252172799b60f"/>
     <sys_hub_action_type_definition action="update">
         <sys_id>014daa002f690510173252172799b677</sys_id>
         <latest_snapshot>80db83d82f6d8510173252172799b60f</latest_snapshot>
