@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>field</field>
+        <mandatory>false</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:43:56</sys_created_on>
+        <sys_id>636ed1c52fedc910173252172799b688</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>field</sys_name>
+        <sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_update_name>sys_ui_policy_action_636ed1c52fedc910173252172799b688</sys_update_name>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:43:56</sys_updated_on>
+        <table>x_9104_pdf_manager_pdf_field_matching</table>
+        <ui_policy display_value="Show and Hide Fields from Use Script Checkbox">df3e1d852fedc910173252172799b637</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="PDF Manager">a94b69272f110110173252172799b682</application>
+        <file_path/>
+        <instance_id>96962052db641f807e55d5b0cf96194d</instance_id>
+        <instance_name>dev51160</instance_name>
+        <name>sys_ui_policy_action_636ed1c52fedc910173252172799b688</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>field</field><mandatory>false</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>michael.slabodnick</sys_created_by><sys_created_on>2022-02-06 18:43:56</sys_created_on><sys_id>636ed1c52fedc910173252172799b688</sys_id><sys_mod_count>0</sys_mod_count><sys_name>field</sys_name><sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package><sys_policy/><sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope><sys_update_name>sys_ui_policy_action_636ed1c52fedc910173252172799b688</sys_update_name><sys_updated_by>michael.slabodnick</sys_updated_by><sys_updated_on>2022-02-06 18:43:56</sys_updated_on><table>x_9104_pdf_manager_pdf_field_matching</table><ui_policy display_value="Show and Hide Fields from Use Script Checkbox">df3e1d852fedc910173252172799b637</ui_policy><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1663431761</payload_hash>
+        <record_name>field</record_name>
+        <reverted_from/>
+        <source>0c5c4f982f6d8510173252172799b6dc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-02-06 18:43:56</sys_created_on>
+        <sys_id>c27ed9852fedc910173252172799b6c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ed0598a9f0000001</sys_recorded_at>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-02-06 18:43:56</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>ca7ed985e0edc9105eaea465ebb258c5</update_guid>
+        <update_guid_history>ca7ed985e0edc9105eaea465ebb258c5:1663431761</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>michael.slabodnick</sys_created_by>
+        <sys_created_on>2022-03-10 22:37:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>b0144cf2961946febf88202ac1a1d881</sys_id>
+        <sys_metadata>636ed1c52fedc910173252172799b688</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>field</sys_name>
+        <sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package>
+        <sys_parent display_value="Show and Hide Fields from Use Script Checkbox">df3e1d852fedc910173252172799b637</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
+        <sys_scope_delete display_value="">a26d1e025c844110ac99622f53005089</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_636ed1c52fedc910173252172799b688</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_636ed1c52fedc910173252172799b688">c27ed9852fedc910173252172799b6c6</sys_update_version>
+        <sys_updated_by>michael.slabodnick</sys_updated_by>
+        <sys_updated_on>2022-03-10 22:37:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
