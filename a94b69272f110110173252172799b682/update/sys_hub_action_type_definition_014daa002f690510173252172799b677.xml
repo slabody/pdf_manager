@@ -8,7 +8,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-sandiego-12-22-2021__patch0-hotfix1-02-01-2022_02-01-2022_2323.zip</compiler_build>
+        <compiler_build>glide-sandiego-12-22-2021__patch1-03-02-2022_03-17-2022_1811.zip</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -25,7 +25,7 @@
         <sys_created_on>2022-02-03 21:54:16</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>014daa002f690510173252172799b677</sys_id>
-        <sys_mod_count>127</sys_mod_count>
+        <sys_mod_count>132</sys_mod_count>
         <sys_name>PDF Manager Create PDF</sys_name>
         <sys_overrides/>
         <sys_package display_value="PDF Manager" source="x_9104_pdf_manager">a94b69272f110110173252172799b682</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_014daa002f690510173252172799b677</sys_update_name>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-03-08 21:59:25</sys_updated_on>
+        <sys_updated_on>2022-04-08 18:42:01</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -87,14 +87,14 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-03 22:02:43</sys_created_on>
         <sys_id>bc3fea4c2f690510173252172799b6bc</sys_id>
-        <sys_mod_count>68</sys_mod_count>
+        <sys_mod_count>69</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-03-08 21:56:28</sys_updated_on>
+        <sys_updated_on>2022-04-08 18:41:49</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bc3fea4c2f690510173252172799b6bc"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -119,9 +119,9 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-03 22:02:44</sys_created_on>
         <sys_id>c13fea4c2f690510173252172799b6dd</sys_id>
-        <sys_mod_count>61</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-03-08 21:56:28</sys_updated_on>
+        <sys_updated_on>2022-04-08 18:41:49</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   
   // Find associated field definitions
@@ -178,6 +178,10 @@
          }           
        }
     // End if of finding output value for radio button
+    if(outputValue == null)
+    {
+     outputValue = ''; 
+    }
      dataObj[propertyName] = outputValue;
   }
   
@@ -797,14 +801,14 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-03-08 21:56:28</sys_created_on>
         <sys_id>c73aa43e2f0e0110173252172799b6e0</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-03-08 21:59:15</sys_updated_on>
+        <sys_updated_on>2022-04-08 18:41:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2142,13 +2146,13 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="PDF Manager Create PDF">014daa002f690510173252172799b677</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"e1dbc3d82f6d8510173252172799b6d9","name":"plan","plan_signature":null}}</plan>
-        <snapshot>82ea24be2f0e0110173252172799b675</snapshot>
+        <snapshot>fc07e7242f720110173252172799b6cd</snapshot>
         <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-04 18:46:19</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>e1dbc3d82f6d8510173252172799b6d9</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2156,7 +2160,7 @@
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-03-08 21:59:31</sys_updated_on>
+        <sys_updated_on>2022-04-08 18:42:05</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -2243,14 +2247,14 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-04 18:46:14</sys_created_on>
         <sys_id>2cdb83d82f6d8510173252172799b685</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="PDF Manager">a94b69272f110110173252172799b682</sys_scope>
         <sys_update_name/>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-03-08 21:59:23</sys_updated_on>
+        <sys_updated_on>2022-04-08 18:42:01</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2cdb83d82f6d8510173252172799b685"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2261,9 +2265,9 @@
         <sys_created_by>michael.slabodnick</sys_created_by>
         <sys_created_on>2022-02-04 18:46:16</sys_created_on>
         <sys_id>70db83d82f6d8510173252172799b6d4</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>michael.slabodnick</sys_updated_by>
-        <sys_updated_on>2022-03-08 21:59:23</sys_updated_on>
+        <sys_updated_on>2022-04-08 18:42:01</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   
   // Find associated field definitions
@@ -2320,6 +2324,10 @@
          }           
        }
     // End if of finding output value for radio button
+    if(outputValue == null)
+    {
+     outputValue = ''; 
+    }
      dataObj[propertyName] = outputValue;
   }
   
