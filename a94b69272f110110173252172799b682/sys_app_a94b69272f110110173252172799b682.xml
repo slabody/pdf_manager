@@ -45,6 +45,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
+        <encryption_context/>
         <file_name>all-about-pdf-icon.png</file_name>
         <hash>8ce1131c0db048e8d72612e5f822b4f571dc0b4b673465a5fde3d3d8afab1039</hash>
         <image_height/>
